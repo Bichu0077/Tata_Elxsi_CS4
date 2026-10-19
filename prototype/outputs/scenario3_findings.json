@@ -1,0 +1,2004 @@
+[
+  {
+    "proof": "a",
+    "label": "LBL-US-box",
+    "market": "US",
+    "language": "EN",
+    "seeded_defect": "Lot in the human-readable UDI (2410B) differs from the DataMatrix (2410A)",
+    "expected": [
+      "HRI_AIDC_MISMATCH:udi_carrier"
+    ],
+    "findings": [
+      {
+        "code": "OCR_LOW_CONFIDENCE",
+        "severity": "review",
+        "element": "-",
+        "clauses": [],
+        "message": "1 OCR line(s) below confidence 0.8; routed to human review",
+        "bbox": null,
+        "evidence": {
+          "lines": [
+            "NLS"
+          ]
+        }
+      },
+      {
+        "code": "HRI_AIDC_MISMATCH",
+        "severity": "major",
+        "element": "udi_carrier",
+        "clauses": [
+          [
+            "US-801.40",
+            "21 CFR 801.40"
+          ]
+        ],
+        "message": "HRI (10) = 2410B but DataMatrix (10) = 2410A",
+        "bbox": [
+          250,
+          576,
+          619,
+          647
+        ],
+        "evidence": {
+          "hri": "2410B",
+          "aidc": "2410A"
+        }
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)19506000140015(17)281231(10)2410A(21)BX000045",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMOLABEL-NOTAREALDEVICE -NOTFORCLINICALUSE",
+          0.965
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.984
+        ],
+        [
+          "ModelNF-S-20|USboxlabel|EN",
+          0.951
+        ],
+        [
+          "Infusioncatheter,sterile,singleuse",
+          0.969
+        ],
+        [
+          "Nova SyntheticMedical Inc.",
+          0.962
+        ],
+        [
+          "Sterilizedusing ethylene oxide",
+          0.965
+        ],
+        [
+          "STERILE",
+          0.991
+        ],
+        [
+          "EO",
+          0.974
+        ],
+        [
+          "100ExampleWay,pringfield,A",
+          0.805
+        ],
+        [
+          "SYN",
+          0.99
+        ],
+        [
+          "LOT",
+          0.995
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "Do notreuse",
+          0.953
+        ],
+        [
+          "SYN",
+          0.983
+        ],
+        [
+          "NLS",
+          0.73
+        ],
+        [
+          "2028-12-31",
+          0.998
+        ],
+        [
+          "Rx only",
+          0.954
+        ],
+        [
+          "Use-bydate",
+          0.996
+        ],
+        [
+          "YN",
+          0.989
+        ],
+        [
+          "Contents:10units",
+          0.988
+        ],
+        [
+          "(01)19506000140015(17)281231",
+          0.947
+        ],
+        [
+          "(10)2410B(21)BX000045",
+          0.933
+        ],
+        [
+          "Symbols are syntheticplaceholders,not ISO 15223-1artwork.UDI data are fictional.",
+          0.923
+        ]
+      ],
+      "hri": {
+        "01": "19506000140015",
+        "17": "281231",
+        "10": "2410B",
+        "21": "BX000045"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.992,
+        "sym:ec_rep_2021": 0.597,
+        "sym:ec_rep_a1": 0.357,
+        "sym:lot": 0.977,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.973,
+        "sym:do_not_reuse": 0.963,
+        "sym:md": 0.527,
+        "sym:ce": 0.434
+      },
+      "required": {
+        "manufacturer": [
+          "21 CFR 801.1"
+        ],
+        "use_by": [
+          "21 CFR 801.18"
+        ],
+        "udi_carrier": [
+          "21 CFR 801.20",
+          "21 CFR 801.40"
+        ],
+        "rx_only": [
+          "21 CFR 801.109(b)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_a.png",
+    "caught": [
+      "HRI_AIDC_MISMATCH:udi_carrier"
+    ],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [
+      {
+        "code": "OCR_LOW_CONFIDENCE",
+        "severity": "review",
+        "element": "-",
+        "clauses": [],
+        "message": "1 OCR line(s) below confidence 0.8; routed to human review",
+        "bbox": null,
+        "evidence": {
+          "lines": [
+            "NLS"
+          ]
+        }
+      }
+    ],
+    "info": []
+  },
+  {
+    "proof": "b",
+    "label": "LBL-US-unit",
+    "market": "US",
+    "language": "EN",
+    "seeded_defect": "'Rx only' missing on the US label",
+    "expected": [
+      "REQUIRED_ELEMENT_MISSING:rx_only"
+    ],
+    "findings": [
+      {
+        "code": "REQUIRED_ELEMENT_MISSING",
+        "severity": "major",
+        "element": "rx_only",
+        "clauses": [
+          [
+            "US-801.109(b)",
+            "21 CFR 801.109(b)"
+          ]
+        ],
+        "message": "Required element 'rx_only' not found on the proof",
+        "bbox": null,
+        "evidence": {}
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)09506000140018(17)281231(10)2410A(21)SN000123",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMO LABEL-NOTAREALDEVICE-NOTFOR CLINICALUSE",
+          0.966
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.988
+        ],
+        [
+          "ModelNF-S-20|USunit label|EN",
+          0.93
+        ],
+        [
+          "Infusioncatheter,sterile,singleuse",
+          0.884
+        ],
+        [
+          "NovaSyntheticMedical Inc.",
+          0.973
+        ],
+        [
+          "Sterilizedusing ethylene oxide",
+          0.972
+        ],
+        [
+          "STERILE",
+          0.992
+        ],
+        [
+          "EO",
+          0.976
+        ],
+        [
+          "100ExampleWay,Springfield,USA",
+          0.881
+        ],
+        [
+          "NAS",
+          0.972
+        ],
+        [
+          "LOT",
+          0.995
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "Donotreuse",
+          0.995
+        ],
+        [
+          "NAS",
+          0.961
+        ],
+        [
+          "2028-12-31",
+          0.998
+        ],
+        [
+          "Use-bydate",
+          0.996
+        ],
+        [
+          "YN",
+          0.983
+        ],
+        [
+          "(01)09506000140018(17)281231",
+          0.951
+        ],
+        [
+          "(10)2410A(21)SN000123",
+          0.94
+        ],
+        [
+          "Symbolsare syntheticplaceholders,not ISO 15223-1artwork UDi data are fictional.",
+          0.924
+        ]
+      ],
+      "hri": {
+        "01": "09506000140018",
+        "17": "281231",
+        "10": "2410A",
+        "21": "SN000123"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.992,
+        "sym:ec_rep_2021": 0.596,
+        "sym:ec_rep_a1": 0.357,
+        "sym:lot": 0.977,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.972,
+        "sym:do_not_reuse": 0.963,
+        "sym:md": 0.527,
+        "sym:ce": 0.434
+      },
+      "required": {
+        "manufacturer": [
+          "21 CFR 801.1"
+        ],
+        "use_by": [
+          "21 CFR 801.18"
+        ],
+        "udi_carrier": [
+          "21 CFR 801.20",
+          "21 CFR 801.40"
+        ],
+        "rx_only": [
+          "21 CFR 801.109(b)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_b.png",
+    "caught": [
+      "REQUIRED_ELEMENT_MISSING:rx_only"
+    ],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [],
+    "info": []
+  },
+  {
+    "proof": "c",
+    "label": "LBL-DE-unit",
+    "market": "DE",
+    "language": "DE",
+    "seeded_defect": "Old EC REP placeholder (pre-Amd 1) still used",
+    "expected": [
+      "SYMBOL_OUTDATED:auth_rep"
+    ],
+    "findings": [
+      {
+        "code": "SYMBOL_OUTDATED",
+        "severity": "major",
+        "element": "auth_rep",
+        "clauses": [
+          [
+            "EU-23.1(h)",
+            "MDR Annex I 23.1(h)"
+          ],
+          [
+            "EU-23.2(d)",
+            "MDR Annex I 23.2(d)"
+          ]
+        ],
+        "message": "EC REP placeholder for ISO 15223-1:2021 found; graph pins ISO 15223-1:2021+A1:2025",
+        "bbox": [
+          30,
+          246,
+          140,
+          316
+        ],
+        "evidence": {
+          "found": "sym:ec_rep_2021",
+          "pinned": "sym:ec_rep_a1",
+          "score": 0.976
+        }
+      },
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)09506000140018(17)281231(10)2410A(21)SN000123",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMOLABEL-NOTAREALDEVICE -NOTFORCLINICALUSE",
+          0.974
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.988
+        ],
+        [
+          "ModelNF-S-20|DEunitlabel|DE",
+          0.948
+        ],
+        [
+          "Infusionskatheter,steril,zumEinmalgebrauch",
+          0.974
+        ],
+        [
+          "Nova SyntheticMedical Inc.",
+          0.963
+        ],
+        [
+          "SterilisiertmitEthylenoxid",
+          0.992
+        ],
+        [
+          "STERILE",
+          0.991
+        ],
+        [
+          "EO",
+          0.953
+        ],
+        [
+          "100ExampleWay,pringfield,A",
+          0.805
+        ],
+        [
+          "SYN",
+          0.985
+        ],
+        [
+          "REP",
+          0.993
+        ],
+        [
+          "SynRep GmbH",
+          0.968
+        ],
+        [
+          "Nichtwiederverwenden",
+          0.995
+        ],
+        [
+          "Musterstr.1,oooo0Musterstadt,DE",
+          0.892
+        ],
+        [
+          "SYN",
+          0.974
+        ],
+        [
+          "NAS",
+          0.936
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "Medizinprodukt",
+          0.994
+        ],
+        [
+          "LOT",
+          0.994
+        ],
+        [
+          "MD",
+          0.994
+        ],
+        [
+          "2028-12-31",
+          0.997
+        ],
+        [
+          "0123",
+          0.999
+        ],
+        [
+          "CE",
+          0.996
+        ],
+        [
+          "Verwendbarbis",
+          0.991
+        ],
+        [
+          "SYN",
+          0.945
+        ],
+        [
+          "SYN",
+          0.977
+        ],
+        [
+          "(01)09506000140018(17)281231",
+          0.952
+        ],
+        [
+          "(10)2410A(21)SN000123",
+          0.937
+        ],
+        [
+          "Symbols are syntheticplaceholders,notISO15223-1artwork.UDI data are fictional.",
+          0.942
+        ]
+      ],
+      "hri": {
+        "01": "09506000140018",
+        "17": "281231",
+        "10": "2410A",
+        "21": "SN000123"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.991,
+        "sym:ec_rep_2021": 0.976,
+        "sym:ec_rep_a1": 0.359,
+        "sym:lot": 0.976,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.973,
+        "sym:do_not_reuse": 0.963,
+        "sym:md": 0.978,
+        "sym:ce": 0.982
+      },
+      "required": {
+        "device_name": [
+          "MDR Annex I 23.2(a)"
+        ],
+        "manufacturer": [
+          "MDR Annex I 23.2(c)"
+        ],
+        "auth_rep": [
+          "MDR Annex I 23.2(d)"
+        ],
+        "lot": [
+          "MDR Annex I 23.2(g)"
+        ],
+        "udi_carrier": [
+          "MDR Annex I 23.2(h)",
+          "MDR Annex VI Part C 4.1"
+        ],
+        "use_by": [
+          "MDR Annex I 23.2(i)"
+        ],
+        "sterile": [
+          "MDR Annex I 23.2(l)"
+        ],
+        "single_use": [
+          "MDR Annex I 23.2(n)"
+        ],
+        "md": [
+          "MDR Annex I 23.2(q)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_c.png",
+    "caught": [
+      "SYMBOL_OUTDATED:auth_rep"
+    ],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [],
+    "info": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ]
+  },
+  {
+    "proof": "d",
+    "label": "LBL-FR-box",
+    "market": "FR",
+    "language": "FR",
+    "seeded_defect": "MD symbol (and its caption) missing on an EU label",
+    "expected": [
+      "REQUIRED_ELEMENT_MISSING:md"
+    ],
+    "findings": [
+      {
+        "code": "REQUIRED_ELEMENT_MISSING",
+        "severity": "major",
+        "element": "md",
+        "clauses": [
+          [
+            "EU-23.2(q)",
+            "MDR Annex I 23.2(q)"
+          ]
+        ],
+        "message": "Required element 'md' not found on the proof",
+        "bbox": null,
+        "evidence": {}
+      },
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)19506000140015(17)281231(10)2410A(21)BX000045",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMO LABEL-NOTAREALDEVICE-NOTFORCLINICALUSE",
+          0.967
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.988
+        ],
+        [
+          "ModelNF-S-20|FRboxlabel|FR",
+          0.953
+        ],
+        [
+          "Catheterdeperfusion,sterile,ausageunique",
+          0.975
+        ],
+        [
+          "NovaSyntheticMedical Inc.",
+          0.98
+        ],
+        [
+          "Sterilisealoxyded'ethylene",
+          0.96
+        ],
+        [
+          "STERILE",
+          0.99
+        ],
+        [
+          "EO",
+          0.963
+        ],
+        [
+          "100ExampleWay,Springfield,A",
+          0.853
+        ],
+        [
+          "NA",
+          0.939
+        ],
+        [
+          "SYN",
+          0.984
+        ],
+        [
+          "REP",
+          0.995
+        ],
+        [
+          "SynRep GmbH",
+          0.958
+        ],
+        [
+          "Nepasreutiliser",
+          0.992
+        ],
+        [
+          "A1",
+          0.992
+        ],
+        [
+          "Musterstr.1,oooo0Musterstadt,DE",
+          0.93
+        ],
+        [
+          "SYN",
+          0.994
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "CE",
+          0.997
+        ],
+        [
+          "0123",
+          0.999
+        ],
+        [
+          "LOT",
+          0.994
+        ],
+        [
+          "SYN",
+          0.986
+        ],
+        [
+          "2028-12-31",
+          0.997
+        ],
+        [
+          "Contenu:10unites",
+          0.987
+        ],
+        [
+          "Date limited'utilisation",
+          0.931
+        ],
+        [
+          "SYN",
+          0.841
+        ],
+        [
+          "(01)19506000140015(17)281231",
+          0.947
+        ],
+        [
+          "(10)2410A(21)BX000045",
+          0.933
+        ],
+        [
+          "Symbolsare syntheticplaceholders,not IsO15223-1artwork.UDI data are fictional",
+          0.935
+        ]
+      ],
+      "hri": {
+        "01": "19506000140015",
+        "17": "281231",
+        "10": "2410A",
+        "21": "BX000045"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.991,
+        "sym:ec_rep_2021": 0.596,
+        "sym:ec_rep_a1": 0.973,
+        "sym:lot": 0.976,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.972,
+        "sym:do_not_reuse": 0.962,
+        "sym:md": 0.527,
+        "sym:ce": 0.983
+      },
+      "required": {
+        "device_name": [
+          "MDR Annex I 23.2(a)"
+        ],
+        "quantity": [
+          "MDR Annex I 23.2(b)"
+        ],
+        "manufacturer": [
+          "MDR Annex I 23.2(c)"
+        ],
+        "auth_rep": [
+          "MDR Annex I 23.2(d)"
+        ],
+        "lot": [
+          "MDR Annex I 23.2(g)"
+        ],
+        "udi_carrier": [
+          "MDR Annex I 23.2(h)",
+          "MDR Annex VI Part C 4.1"
+        ],
+        "use_by": [
+          "MDR Annex I 23.2(i)"
+        ],
+        "sterile": [
+          "MDR Annex I 23.2(l)"
+        ],
+        "single_use": [
+          "MDR Annex I 23.2(n)"
+        ],
+        "md": [
+          "MDR Annex I 23.2(q)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_d.png",
+    "caught": [
+      "REQUIRED_ELEMENT_MISSING:md"
+    ],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [],
+    "info": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ]
+  },
+  {
+    "proof": "ctrl-LBL-DE-box",
+    "label": "LBL-DE-box",
+    "market": "DE",
+    "language": "DE",
+    "seeded_defect": "clean control (no seeded defect)",
+    "expected": [],
+    "findings": [
+      {
+        "code": "OCR_LOW_CONFIDENCE",
+        "severity": "review",
+        "element": "-",
+        "clauses": [],
+        "message": "1 OCR line(s) below confidence 0.8; routed to human review",
+        "bbox": null,
+        "evidence": {
+          "lines": [
+            "100ExampleWay,pringfield,A"
+          ]
+        }
+      },
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)19506000140015(17)281231(10)2410A(21)BX000045",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMOLABEL-NOTAREALDEVICE -NOTFORCLINICALUSE",
+          0.969
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.984
+        ],
+        [
+          "ModelNF-S-20|DEboxlabel|DE",
+          0.938
+        ],
+        [
+          "Infusionskatheter,steril,zumEinmalgebrauch",
+          0.972
+        ],
+        [
+          "Nova SyntheticMedical Inc.",
+          0.961
+        ],
+        [
+          "SterilisiertmitEthylenoxid",
+          0.995
+        ],
+        [
+          "STERILE",
+          0.99
+        ],
+        [
+          "EO",
+          0.964
+        ],
+        [
+          "100ExampleWay,pringfield,A",
+          0.794
+        ],
+        [
+          "NAE",
+          0.809
+        ],
+        [
+          "SYN",
+          0.985
+        ],
+        [
+          "REP",
+          0.995
+        ],
+        [
+          "SynRep GmbH",
+          0.975
+        ],
+        [
+          "Nichtwiederverwenden",
+          0.996
+        ],
+        [
+          "A1",
+          0.995
+        ],
+        [
+          "Musterstr.1,0ooo0Musterstadt,DE",
+          0.916
+        ],
+        [
+          "NAS",
+          0.966
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "Medizinprodukt",
+          0.994
+        ],
+        [
+          "LOT",
+          0.993
+        ],
+        [
+          "MD",
+          0.994
+        ],
+        [
+          "2028-12-31",
+          0.997
+        ],
+        [
+          "0123",
+          0.999
+        ],
+        [
+          "CE",
+          0.996
+        ],
+        [
+          "Verwendbarbis",
+          0.993
+        ],
+        [
+          "NAS",
+          0.937
+        ],
+        [
+          "SYN",
+          0.909
+        ],
+        [
+          "Inhalt:10Stuck",
+          0.961
+        ],
+        [
+          "(01)19506000140015(17)281231",
+          0.95
+        ],
+        [
+          "(10)2410A(21)BX000045",
+          0.938
+        ],
+        [
+          "Symbols are syntheticplaceholders,notISO15223-1artwork UDi dataare fictional.",
+          0.927
+        ]
+      ],
+      "hri": {
+        "01": "19506000140015",
+        "17": "281231",
+        "10": "2410A",
+        "21": "BX000045"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.991,
+        "sym:ec_rep_2021": 0.597,
+        "sym:ec_rep_a1": 0.973,
+        "sym:lot": 0.976,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.972,
+        "sym:do_not_reuse": 0.963,
+        "sym:md": 0.978,
+        "sym:ce": 0.982
+      },
+      "required": {
+        "device_name": [
+          "MDR Annex I 23.2(a)"
+        ],
+        "quantity": [
+          "MDR Annex I 23.2(b)"
+        ],
+        "manufacturer": [
+          "MDR Annex I 23.2(c)"
+        ],
+        "auth_rep": [
+          "MDR Annex I 23.2(d)"
+        ],
+        "lot": [
+          "MDR Annex I 23.2(g)"
+        ],
+        "udi_carrier": [
+          "MDR Annex I 23.2(h)",
+          "MDR Annex VI Part C 4.1"
+        ],
+        "use_by": [
+          "MDR Annex I 23.2(i)"
+        ],
+        "sterile": [
+          "MDR Annex I 23.2(l)"
+        ],
+        "single_use": [
+          "MDR Annex I 23.2(n)"
+        ],
+        "md": [
+          "MDR Annex I 23.2(q)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_ctrl-LBL-DE-box.png",
+    "caught": [],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [
+      {
+        "code": "OCR_LOW_CONFIDENCE",
+        "severity": "review",
+        "element": "-",
+        "clauses": [],
+        "message": "1 OCR line(s) below confidence 0.8; routed to human review",
+        "bbox": null,
+        "evidence": {
+          "lines": [
+            "100ExampleWay,pringfield,A"
+          ]
+        }
+      }
+    ],
+    "info": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ]
+  },
+  {
+    "proof": "ctrl-LBL-DE-unit",
+    "label": "LBL-DE-unit",
+    "market": "DE",
+    "language": "DE",
+    "seeded_defect": "clean control (no seeded defect)",
+    "expected": [],
+    "findings": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)09506000140018(17)281231(10)2410A(21)SN000123",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMOLABEL-NOTAREALDEVICE-NOTFORCLINICALUSE",
+          0.981
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.988
+        ],
+        [
+          "ModelNF-S-20|DEunitlabel|DE",
+          0.948
+        ],
+        [
+          "Infusionskatheter,steril,zumEinmalgebrauch",
+          0.974
+        ],
+        [
+          "NovaSyntheticMedical Inc.",
+          0.979
+        ],
+        [
+          "SterilisiertmitEthylenoxid",
+          0.995
+        ],
+        [
+          "STERILE",
+          0.992
+        ],
+        [
+          "EO",
+          0.968
+        ],
+        [
+          "100ExampleWay,pringfield,A",
+          0.812
+        ],
+        [
+          "NA",
+          0.922
+        ],
+        [
+          "SYN",
+          0.988
+        ],
+        [
+          "REP",
+          0.995
+        ],
+        [
+          "SynRep GmbH",
+          0.971
+        ],
+        [
+          "Nichtwiederverwenden",
+          0.995
+        ],
+        [
+          "A1",
+          0.996
+        ],
+        [
+          "Musterstr.1,0000Musterstadt,DE",
+          0.83
+        ],
+        [
+          "SYN",
+          0.989
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "Medizinprodukt",
+          0.994
+        ],
+        [
+          "LOT",
+          0.994
+        ],
+        [
+          "MD",
+          0.993
+        ],
+        [
+          "2028-12-31",
+          0.997
+        ],
+        [
+          "0123",
+          0.998
+        ],
+        [
+          "CE",
+          0.996
+        ],
+        [
+          "Verwendbarbis",
+          0.992
+        ],
+        [
+          "NAS",
+          0.963
+        ],
+        [
+          "SYN",
+          0.966
+        ],
+        [
+          "(01)09506000140018(17)281231",
+          0.958
+        ],
+        [
+          "(10)2410A(21)SN000123",
+          0.939
+        ],
+        [
+          "Symbolsare syntheticplaceholders,not ISO 15223-1artwork.UDl data are fictional",
+          0.929
+        ]
+      ],
+      "hri": {
+        "01": "09506000140018",
+        "17": "281231",
+        "10": "2410A",
+        "21": "SN000123"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.991,
+        "sym:ec_rep_2021": 0.597,
+        "sym:ec_rep_a1": 0.972,
+        "sym:lot": 0.976,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.973,
+        "sym:do_not_reuse": 0.962,
+        "sym:md": 0.978,
+        "sym:ce": 0.982
+      },
+      "required": {
+        "device_name": [
+          "MDR Annex I 23.2(a)"
+        ],
+        "manufacturer": [
+          "MDR Annex I 23.2(c)"
+        ],
+        "auth_rep": [
+          "MDR Annex I 23.2(d)"
+        ],
+        "lot": [
+          "MDR Annex I 23.2(g)"
+        ],
+        "udi_carrier": [
+          "MDR Annex I 23.2(h)",
+          "MDR Annex VI Part C 4.1"
+        ],
+        "use_by": [
+          "MDR Annex I 23.2(i)"
+        ],
+        "sterile": [
+          "MDR Annex I 23.2(l)"
+        ],
+        "single_use": [
+          "MDR Annex I 23.2(n)"
+        ],
+        "md": [
+          "MDR Annex I 23.2(q)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_ctrl-LBL-DE-unit.png",
+    "caught": [],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [],
+    "info": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ]
+  },
+  {
+    "proof": "ctrl-LBL-FR-box",
+    "label": "LBL-FR-box",
+    "market": "FR",
+    "language": "FR",
+    "seeded_defect": "clean control (no seeded defect)",
+    "expected": [],
+    "findings": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)19506000140015(17)281231(10)2410A(21)BX000045",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMOLABEL\u00b7NOTAREALDEVICE-NOTFORCLINICALUSE",
+          0.973
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.989
+        ],
+        [
+          "ModelNF-S-20|FRboxlabel|FR",
+          0.943
+        ],
+        [
+          "Catheterdeperfusion,sterile,ausageunique",
+          0.976
+        ],
+        [
+          "NovaSyntheticMedical Inc.",
+          0.974
+        ],
+        [
+          "Sterilisealoxyded'ethylene",
+          0.949
+        ],
+        [
+          "STERILE",
+          0.992
+        ],
+        [
+          "EO",
+          0.981
+        ],
+        [
+          "100ExampleWay,Springfield,A",
+          0.844
+        ],
+        [
+          "NAS",
+          0.981
+        ],
+        [
+          "REP",
+          0.995
+        ],
+        [
+          "SynRep GmbH",
+          0.957
+        ],
+        [
+          "Nepasreutiliser",
+          0.994
+        ],
+        [
+          "A1",
+          0.995
+        ],
+        [
+          "Musterstr.1,oooo0Musterstadt,DE",
+          0.934
+        ],
+        [
+          "NAS",
+          0.969
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "Dispositifmedical",
+          0.995
+        ],
+        [
+          "LOT",
+          0.994
+        ],
+        [
+          "MD",
+          0.995
+        ],
+        [
+          "2028-12-31",
+          0.997
+        ],
+        [
+          "0123",
+          0.999
+        ],
+        [
+          "CE",
+          0.996
+        ],
+        [
+          "Datelimited'utilisation",
+          0.978
+        ],
+        [
+          "SYN",
+          0.976
+        ],
+        [
+          "SYN",
+          0.985
+        ],
+        [
+          "Contenu:10unites",
+          0.986
+        ],
+        [
+          "(01)19506000140015(17)281231",
+          0.951
+        ],
+        [
+          "(10)2410A(21)BX000045",
+          0.94
+        ],
+        [
+          "Symbolsare syntheticplaceholders,notISO15223-1artwork.UDl data arefictional.",
+          0.928
+        ]
+      ],
+      "hri": {
+        "01": "19506000140015",
+        "17": "281231",
+        "10": "2410A",
+        "21": "BX000045"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.991,
+        "sym:ec_rep_2021": 0.596,
+        "sym:ec_rep_a1": 0.973,
+        "sym:lot": 0.976,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.973,
+        "sym:do_not_reuse": 0.963,
+        "sym:md": 0.979,
+        "sym:ce": 0.981
+      },
+      "required": {
+        "device_name": [
+          "MDR Annex I 23.2(a)"
+        ],
+        "quantity": [
+          "MDR Annex I 23.2(b)"
+        ],
+        "manufacturer": [
+          "MDR Annex I 23.2(c)"
+        ],
+        "auth_rep": [
+          "MDR Annex I 23.2(d)"
+        ],
+        "lot": [
+          "MDR Annex I 23.2(g)"
+        ],
+        "udi_carrier": [
+          "MDR Annex I 23.2(h)",
+          "MDR Annex VI Part C 4.1"
+        ],
+        "use_by": [
+          "MDR Annex I 23.2(i)"
+        ],
+        "sterile": [
+          "MDR Annex I 23.2(l)"
+        ],
+        "single_use": [
+          "MDR Annex I 23.2(n)"
+        ],
+        "md": [
+          "MDR Annex I 23.2(q)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_ctrl-LBL-FR-box.png",
+    "caught": [],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [],
+    "info": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ]
+  },
+  {
+    "proof": "ctrl-LBL-FR-unit",
+    "label": "LBL-FR-unit",
+    "market": "FR",
+    "language": "FR",
+    "seeded_defect": "clean control (no seeded defect)",
+    "expected": [],
+    "findings": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)09506000140018(17)281231(10)2410A(21)SN000123",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMOLABEL-NOTAREALDEVICE-NOTFORCLINICALUSE",
+          0.979
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.988
+        ],
+        [
+          "ModelNF-S-20|FRunit label|FR",
+          0.945
+        ],
+        [
+          "Catheterdeperfusion,sterile,ausageunique",
+          0.974
+        ],
+        [
+          "NovaSyntheticMedical Inc.",
+          0.978
+        ],
+        [
+          "Sterilisealoxyded'ethylene",
+          0.959
+        ],
+        [
+          "STERILE",
+          0.992
+        ],
+        [
+          "EO",
+          0.955
+        ],
+        [
+          "100ExampleWay,Springfield,SA",
+          0.879
+        ],
+        [
+          "NAS",
+          0.892
+        ],
+        [
+          "SYN",
+          0.976
+        ],
+        [
+          "REP",
+          0.995
+        ],
+        [
+          "SynRep GmbH",
+          0.959
+        ],
+        [
+          "Nepasreutiliser",
+          0.993
+        ],
+        [
+          "A1",
+          0.996
+        ],
+        [
+          "Musterstr.1,oooooMusterstadt,DE",
+          0.932
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "Dispositifmedical",
+          0.996
+        ],
+        [
+          "LOT",
+          0.994
+        ],
+        [
+          "MD",
+          0.994
+        ],
+        [
+          "2028-12-31",
+          0.997
+        ],
+        [
+          "0123",
+          0.999
+        ],
+        [
+          "CE",
+          0.996
+        ],
+        [
+          "Datelimited'utilisation",
+          0.963
+        ],
+        [
+          "NAS",
+          0.962
+        ],
+        [
+          "SYN",
+          0.984
+        ],
+        [
+          "(01)09506000140018(17)281231",
+          0.955
+        ],
+        [
+          "(10)2410A(21)SN000123",
+          0.94
+        ],
+        [
+          "Symbols are syntheticplaceholders,not ISO15223-1artwork.UDl data are fictional.",
+          0.927
+        ]
+      ],
+      "hri": {
+        "01": "09506000140018",
+        "17": "281231",
+        "10": "2410A",
+        "21": "SN000123"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.991,
+        "sym:ec_rep_2021": 0.595,
+        "sym:ec_rep_a1": 0.972,
+        "sym:lot": 0.976,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.972,
+        "sym:do_not_reuse": 0.964,
+        "sym:md": 0.978,
+        "sym:ce": 0.982
+      },
+      "required": {
+        "device_name": [
+          "MDR Annex I 23.2(a)"
+        ],
+        "manufacturer": [
+          "MDR Annex I 23.2(c)"
+        ],
+        "auth_rep": [
+          "MDR Annex I 23.2(d)"
+        ],
+        "lot": [
+          "MDR Annex I 23.2(g)"
+        ],
+        "udi_carrier": [
+          "MDR Annex I 23.2(h)",
+          "MDR Annex VI Part C 4.1"
+        ],
+        "use_by": [
+          "MDR Annex I 23.2(i)"
+        ],
+        "sterile": [
+          "MDR Annex I 23.2(l)"
+        ],
+        "single_use": [
+          "MDR Annex I 23.2(n)"
+        ],
+        "md": [
+          "MDR Annex I 23.2(q)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_ctrl-LBL-FR-unit.png",
+    "caught": [],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [],
+    "info": [
+      {
+        "code": "UNLINKED_ELEMENT",
+        "severity": "info",
+        "element": "ce_mark",
+        "clauses": [],
+        "message": "Element has no verified requirement link in the catalogue (e.g. MDR Art. 20 was not verified in research)",
+        "bbox": null,
+        "evidence": {}
+      }
+    ]
+  },
+  {
+    "proof": "ctrl-LBL-US-box",
+    "label": "LBL-US-box",
+    "market": "US",
+    "language": "EN",
+    "seeded_defect": "clean control (no seeded defect)",
+    "expected": [],
+    "findings": [
+      {
+        "code": "OCR_LOW_CONFIDENCE",
+        "severity": "review",
+        "element": "-",
+        "clauses": [],
+        "message": "1 OCR line(s) below confidence 0.8; routed to human review",
+        "bbox": null,
+        "evidence": {
+          "lines": [
+            "NLS"
+          ]
+        }
+      }
+    ],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)19506000140015(17)281231(10)2410A(21)BX000045",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMOLABEL-NOTAREALDEVICE -NOTFOR CLINICALUSE",
+          0.961
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.984
+        ],
+        [
+          "ModelNF-S-20|USboxlabel|EN",
+          0.954
+        ],
+        [
+          "Infusioncatheter,sterile,singleuse",
+          0.968
+        ],
+        [
+          "NovaSyntheticMedical Inc.",
+          0.975
+        ],
+        [
+          "Sterilizedusing ethylene oxide",
+          0.966
+        ],
+        [
+          "STERILE",
+          0.991
+        ],
+        [
+          "EO",
+          0.968
+        ],
+        [
+          "100ExampleWay,Springfied,A",
+          0.862
+        ],
+        [
+          "NAS",
+          0.945
+        ],
+        [
+          "LOT",
+          0.995
+        ],
+        [
+          "2410A",
+          0.998
+        ],
+        [
+          "Do notreuse",
+          0.952
+        ],
+        [
+          "NLS",
+          0.764
+        ],
+        [
+          "2028-12-31",
+          0.998
+        ],
+        [
+          "Rx only",
+          0.958
+        ],
+        [
+          "Use-bydate",
+          0.995
+        ],
+        [
+          "YN",
+          0.989
+        ],
+        [
+          "Contents:10units",
+          0.989
+        ],
+        [
+          "(01)19506000140015(17)281231",
+          0.947
+        ],
+        [
+          "(10)2410A(21)BX000045",
+          0.942
+        ],
+        [
+          "Symbolsare syntheticplaceholders,not ISO15223-1artwork.UDI data are fictional.",
+          0.937
+        ]
+      ],
+      "hri": {
+        "01": "19506000140015",
+        "17": "281231",
+        "10": "2410A",
+        "21": "BX000045"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.992,
+        "sym:ec_rep_2021": 0.596,
+        "sym:ec_rep_a1": 0.358,
+        "sym:lot": 0.977,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.973,
+        "sym:do_not_reuse": 0.963,
+        "sym:md": 0.526,
+        "sym:ce": 0.434
+      },
+      "required": {
+        "manufacturer": [
+          "21 CFR 801.1"
+        ],
+        "use_by": [
+          "21 CFR 801.18"
+        ],
+        "udi_carrier": [
+          "21 CFR 801.20",
+          "21 CFR 801.40"
+        ],
+        "rx_only": [
+          "21 CFR 801.109(b)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_ctrl-LBL-US-box.png",
+    "caught": [],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [
+      {
+        "code": "OCR_LOW_CONFIDENCE",
+        "severity": "review",
+        "element": "-",
+        "clauses": [],
+        "message": "1 OCR line(s) below confidence 0.8; routed to human review",
+        "bbox": null,
+        "evidence": {
+          "lines": [
+            "NLS"
+          ]
+        }
+      }
+    ],
+    "info": []
+  },
+  {
+    "proof": "ctrl-LBL-US-unit",
+    "label": "LBL-US-unit",
+    "market": "US",
+    "language": "EN",
+    "seeded_defect": "clean control (no seeded defect)",
+    "expected": [],
+    "findings": [],
+    "trace": {
+      "datamatrix": {
+        "decoded": "(01)09506000140018(17)281231(10)2410A(21)SN000123",
+        "symbology": "]d2"
+      },
+      "ocr_lines": [
+        [
+          "SYNTHETICDEMOLABEL-NOTAREALDEVICE \u00b7NOTFORCLINICALUSE",
+          0.961
+        ],
+        [
+          "NovaFlow-SInfusionCatheter",
+          0.983
+        ],
+        [
+          "Infusioncatheter,sterile,singleuse",
+          0.867
+        ],
+        [
+          "NovaSyntheticMedical Inc.",
+          0.978
+        ],
+        [
+          "Sterilizedusing ethylene oxide",
+          0.966
+        ],
+        [
+          "STERILE",
+          0.991
+        ],
+        [
+          "EO",
+          0.984
+        ],
+        [
+          "100ExampleWay,pringfield,A",
+          0.848
+        ],
+        [
+          "NAS",
+          0.967
+        ],
+        [
+          "LOT",
+          0.994
+        ],
+        [
+          "2410A",
+          0.994
+        ],
+        [
+          "Do notreuse",
+          0.953
+        ],
+        [
+          "SYN",
+          0.981
+        ],
+        [
+          "SYN",
+          0.989
+        ],
+        [
+          "2028-12-31",
+          0.998
+        ],
+        [
+          "Rx only",
+          0.963
+        ],
+        [
+          "Use-bydate",
+          0.995
+        ],
+        [
+          "YN",
+          0.97
+        ],
+        [
+          "(01)09506000140018(17)281231",
+          0.952
+        ],
+        [
+          "(10)2410A(21)SN000123",
+          0.942
+        ],
+        [
+          "Symbols are syntheticplaceholders,not ISO15223-1artwork UDI data are fictional.",
+          0.92
+        ]
+      ],
+      "hri": {
+        "01": "09506000140018",
+        "17": "281231",
+        "10": "2410A",
+        "21": "SN000123"
+      },
+      "symbol_scores": {
+        "sym:manufacturer": 0.991,
+        "sym:ec_rep_2021": 0.597,
+        "sym:ec_rep_a1": 0.356,
+        "sym:lot": 0.977,
+        "sym:use_by": 0.976,
+        "sym:sterile_eo": 0.973,
+        "sym:do_not_reuse": 0.964,
+        "sym:md": 0.527,
+        "sym:ce": 0.434
+      },
+      "required": {
+        "manufacturer": [
+          "21 CFR 801.1"
+        ],
+        "use_by": [
+          "21 CFR 801.18"
+        ],
+        "udi_carrier": [
+          "21 CFR 801.20",
+          "21 CFR 801.40"
+        ],
+        "rx_only": [
+          "21 CFR 801.109(b)"
+        ]
+      }
+    },
+    "image": "C:\\Users\\bichu\\OneDrive\\Documents\\Desktop\\Tata_Elxsi\\CS4\\prototype\\outputs\\proofs\\proof_ctrl-LBL-US-unit.png",
+    "caught": [],
+    "missed": [],
+    "false_flags": [],
+    "review_flags": [],
+    "info": []
+  }
+]

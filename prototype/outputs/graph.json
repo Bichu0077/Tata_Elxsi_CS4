@@ -1,0 +1,2639 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(a)",
+      "text": "the name or trade name of the device",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(a)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(b)",
+      "text": "details necessary to identify the device and the contents of the packaging",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(b)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(c)",
+      "text": "name of the manufacturer and address of its registered place of business",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(c)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(d)",
+      "text": "authorised representative, if the manufacturer is outside the Union",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(d)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(g)",
+      "text": "lot or serial number preceded by LOT NUMBER / SERIAL NUMBER or an equivalent symbol",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(g)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(h)",
+      "text": "the UDI carrier",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(h)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(i)",
+      "text": "time limit for using the device, at least year and month",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(i)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(l)",
+      "text": "if supplied sterile: its sterile state and the sterilisation method",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(l)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(n)",
+      "text": "if intended for single use, an indication of that fact",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(n)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.2(q)",
+      "text": "an indication that the device is a medical device",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.2(q)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex I 23.1(h)",
+      "text": "any symbol used shall conform to the harmonised standards or CS",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-23.1(h)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex VI Part C 4.1",
+      "text": "UDI carrier (AIDC and HRI representation) on the label and all higher packaging levels",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-VI-C4.1"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex VI Part C 3.9(a)",
+      "text": "new UDI-DI required on change of name or trade name",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-VI-3.9(a)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex VI Part C 3.9(b)",
+      "text": "new UDI-DI required on change of device version or model",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-VI-3.9(b)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex VI Part C 3.9(c)",
+      "text": "new UDI-DI required on change of 'labelled as single use'",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-VI-3.9(c)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex VI Part C 3.9(d)",
+      "text": "new UDI-DI required on change of 'packaged sterile'",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-VI-3.9(d)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex VI Part C 3.9(e)",
+      "text": "new UDI-DI required on change of 'need for sterilization before use'",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-VI-3.9(e)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex VI Part C 3.9(f)",
+      "text": "new UDI-DI required on change of quantity of devices provided in a package",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-VI-3.9(f)"
+    },
+    {
+      "type": "requirement",
+      "clause": "MDR Annex VI Part C 3.9(g)",
+      "text": "new UDI-DI required on change of critical warnings or contra-indications",
+      "jurisdiction": "EU",
+      "verified": true,
+      "id": "req:EU-VI-3.9(g)"
+    },
+    {
+      "type": "requirement",
+      "clause": "21 CFR 801.1",
+      "text": "name and place of business of the manufacturer, packer or distributor",
+      "jurisdiction": "US",
+      "verified": true,
+      "id": "req:US-801.1"
+    },
+    {
+      "type": "requirement",
+      "clause": "21 CFR 801.18",
+      "text": "dates for the user in the format YYYY-MM-DD",
+      "jurisdiction": "US",
+      "verified": true,
+      "id": "req:US-801.18"
+    },
+    {
+      "type": "requirement",
+      "clause": "21 CFR 801.20",
+      "text": "the label of every device, and every device package, shall bear a UDI",
+      "jurisdiction": "US",
+      "verified": true,
+      "id": "req:US-801.20"
+    },
+    {
+      "type": "requirement",
+      "clause": "21 CFR 801.40",
+      "text": "UDI in easily readable plain text and in AIDC form",
+      "jurisdiction": "US",
+      "verified": true,
+      "id": "req:US-801.40"
+    },
+    {
+      "type": "requirement",
+      "clause": "21 CFR 801.109(b)",
+      "text": "prescription device label bears 'Rx only' (or the caution statement)",
+      "jurisdiction": "US",
+      "verified": true,
+      "id": "req:US-801.109(b)"
+    },
+    {
+      "type": "requirement",
+      "clause": "21 CFR 830.310(b)(14)",
+      "text": "GUDID: total number of individual devices in the device package",
+      "jurisdiction": "US",
+      "verified": true,
+      "id": "req:US-830.310(b)(14)"
+    },
+    {
+      "type": "requirement",
+      "clause": "Company labeling spec (synthetic)",
+      "text": "house content standard",
+      "jurisdiction": "ANY",
+      "verified": true,
+      "id": "req:SPEC-SYN-001"
+    },
+    {
+      "type": "standard",
+      "status": "current",
+      "id": "std:ISO 15223-1:2021"
+    },
+    {
+      "type": "standard",
+      "status": "not yet adopted",
+      "id": "std:ISO 15223-1:2021+A1:2025"
+    },
+    {
+      "type": "symbol",
+      "name": "manufacturer",
+      "edition": "ISO 15223-1:2021",
+      "synthetic": true,
+      "id": "sym:manufacturer"
+    },
+    {
+      "type": "symbol",
+      "name": "EC REP",
+      "edition": "ISO 15223-1:2021",
+      "synthetic": true,
+      "status": "revised",
+      "id": "sym:ec_rep_2021"
+    },
+    {
+      "type": "symbol",
+      "name": "EC REP (Amd 1)",
+      "edition": "ISO 15223-1:2021+A1:2025",
+      "synthetic": true,
+      "id": "sym:ec_rep_a1"
+    },
+    {
+      "type": "symbol",
+      "name": "LOT",
+      "edition": "ISO 15223-1:2021",
+      "synthetic": true,
+      "id": "sym:lot"
+    },
+    {
+      "type": "symbol",
+      "name": "use-by date",
+      "edition": "ISO 15223-1:2021",
+      "synthetic": true,
+      "id": "sym:use_by"
+    },
+    {
+      "type": "symbol",
+      "name": "STERILE EO",
+      "edition": "ISO 15223-1:2021",
+      "synthetic": true,
+      "id": "sym:sterile_eo"
+    },
+    {
+      "type": "symbol",
+      "name": "do not reuse",
+      "edition": "ISO 15223-1:2021",
+      "synthetic": true,
+      "id": "sym:do_not_reuse"
+    },
+    {
+      "type": "symbol",
+      "name": "MD",
+      "edition": "ISO 15223-1:2021",
+      "synthetic": true,
+      "id": "sym:md"
+    },
+    {
+      "type": "symbol",
+      "name": "CE marking",
+      "edition": "n/a (no verified clause in catalogue)",
+      "synthetic": true,
+      "id": "sym:ce"
+    },
+    {
+      "type": "attribute",
+      "value": "NovaFlow-S Infusion Catheter",
+      "source": "PLM (synthetic)",
+      "id": "attr:name"
+    },
+    {
+      "type": "attribute",
+      "value": "NF-S-20",
+      "source": "PLM (synthetic)",
+      "id": "attr:model"
+    },
+    {
+      "type": "attribute",
+      "value": "Nova Synthetic Medical Inc., 100 Example Way, Springfield, USA",
+      "source": "PLM (synthetic)",
+      "id": "attr:manufacturer"
+    },
+    {
+      "type": "attribute",
+      "value": "US",
+      "source": "PLM (synthetic)",
+      "id": "attr:manufacturer_country"
+    },
+    {
+      "type": "attribute",
+      "value": "SynRep GmbH, Musterstr. 1, 00000 Musterstadt, DE",
+      "source": "PLM (synthetic)",
+      "id": "attr:auth_rep"
+    },
+    {
+      "type": "attribute",
+      "value": "True",
+      "source": "PLM (synthetic)",
+      "id": "attr:sterile"
+    },
+    {
+      "type": "attribute",
+      "value": "EO",
+      "source": "PLM (synthetic)",
+      "id": "attr:sterilization"
+    },
+    {
+      "type": "attribute",
+      "value": "True",
+      "source": "PLM (synthetic)",
+      "id": "attr:single_use"
+    },
+    {
+      "type": "attribute",
+      "value": "False",
+      "source": "PLM (synthetic)",
+      "id": "attr:needs_sterilization_before_use"
+    },
+    {
+      "type": "attribute",
+      "value": "none",
+      "source": "PLM (synthetic)",
+      "id": "attr:critical_warnings"
+    },
+    {
+      "type": "attribute",
+      "value": "True",
+      "source": "PLM (synthetic)",
+      "id": "attr:rx"
+    },
+    {
+      "type": "attribute",
+      "value": "10",
+      "source": "PLM (synthetic)",
+      "id": "attr:pack_quantity"
+    },
+    {
+      "type": "attribute",
+      "value": "2410A",
+      "source": "PLM (synthetic)",
+      "id": "attr:lot"
+    },
+    {
+      "type": "attribute",
+      "value": "SN000123",
+      "source": "PLM (synthetic)",
+      "id": "attr:serial_unit"
+    },
+    {
+      "type": "attribute",
+      "value": "BX000045",
+      "source": "PLM (synthetic)",
+      "id": "attr:serial_box"
+    },
+    {
+      "type": "attribute",
+      "value": "2028-12-31",
+      "source": "PLM (synthetic)",
+      "id": "attr:expiry"
+    },
+    {
+      "type": "attribute",
+      "value": "09506000140018",
+      "source": "PLM (synthetic)",
+      "id": "attr:gtin_unit"
+    },
+    {
+      "type": "attribute",
+      "value": "19506000140015",
+      "source": "PLM (synthetic)",
+      "id": "attr:gtin_box"
+    },
+    {
+      "type": "attribute",
+      "value": "0123",
+      "source": "PLM (synthetic)",
+      "id": "attr:notified_body"
+    },
+    {
+      "type": "translation",
+      "lang": "EN",
+      "text": "Infusion catheter, sterile, single use",
+      "status": "approved (synthetic)",
+      "id": "tr:device_name:EN"
+    },
+    {
+      "type": "translation",
+      "lang": "DE",
+      "text": "Infusionskatheter, steril, zum Einmalgebrauch",
+      "status": "approved (synthetic)",
+      "id": "tr:device_name:DE"
+    },
+    {
+      "type": "translation",
+      "lang": "FR",
+      "text": "Cath\u00e9ter de perfusion, st\u00e9rile, \u00e0 usage unique",
+      "status": "approved (synthetic)",
+      "id": "tr:device_name:FR"
+    },
+    {
+      "type": "translation",
+      "lang": "EN",
+      "text": "Sterilized using ethylene oxide",
+      "status": "approved (synthetic)",
+      "id": "tr:sterile:EN"
+    },
+    {
+      "type": "translation",
+      "lang": "DE",
+      "text": "Sterilisiert mit Ethylenoxid",
+      "status": "approved (synthetic)",
+      "id": "tr:sterile:DE"
+    },
+    {
+      "type": "translation",
+      "lang": "FR",
+      "text": "St\u00e9rilis\u00e9 \u00e0 l'oxyde d'\u00e9thyl\u00e8ne",
+      "status": "approved (synthetic)",
+      "id": "tr:sterile:FR"
+    },
+    {
+      "type": "translation",
+      "lang": "EN",
+      "text": "Do not reuse",
+      "status": "approved (synthetic)",
+      "id": "tr:single_use:EN"
+    },
+    {
+      "type": "translation",
+      "lang": "DE",
+      "text": "Nicht wiederverwenden",
+      "status": "approved (synthetic)",
+      "id": "tr:single_use:DE"
+    },
+    {
+      "type": "translation",
+      "lang": "FR",
+      "text": "Ne pas r\u00e9utiliser",
+      "status": "approved (synthetic)",
+      "id": "tr:single_use:FR"
+    },
+    {
+      "type": "translation",
+      "lang": "EN",
+      "text": "Medical device",
+      "status": "approved (synthetic)",
+      "id": "tr:md:EN"
+    },
+    {
+      "type": "translation",
+      "lang": "DE",
+      "text": "Medizinprodukt",
+      "status": "approved (synthetic)",
+      "id": "tr:md:DE"
+    },
+    {
+      "type": "translation",
+      "lang": "FR",
+      "text": "Dispositif m\u00e9dical",
+      "status": "approved (synthetic)",
+      "id": "tr:md:FR"
+    },
+    {
+      "type": "translation",
+      "lang": "EN",
+      "text": "Use-by date",
+      "status": "approved (synthetic)",
+      "id": "tr:use_by:EN"
+    },
+    {
+      "type": "translation",
+      "lang": "DE",
+      "text": "Verwendbar bis",
+      "status": "approved (synthetic)",
+      "id": "tr:use_by:DE"
+    },
+    {
+      "type": "translation",
+      "lang": "FR",
+      "text": "Date limite d'utilisation",
+      "status": "approved (synthetic)",
+      "id": "tr:use_by:FR"
+    },
+    {
+      "type": "translation",
+      "lang": "EN",
+      "text": "Contents: {n} units",
+      "status": "approved (synthetic)",
+      "id": "tr:quantity:EN"
+    },
+    {
+      "type": "translation",
+      "lang": "DE",
+      "text": "Inhalt: {n} St\u00fcck",
+      "status": "approved (synthetic)",
+      "id": "tr:quantity:DE"
+    },
+    {
+      "type": "translation",
+      "lang": "FR",
+      "text": "Contenu : {n} unit\u00e9s",
+      "status": "approved (synthetic)",
+      "id": "tr:quantity:FR"
+    },
+    {
+      "type": "translation",
+      "lang": "EN",
+      "text": "Rx only",
+      "status": "approved (synthetic)",
+      "id": "tr:rx_only:EN"
+    },
+    {
+      "type": "change_order",
+      "title": "Initial label release",
+      "status": "released",
+      "id": "co:CO-SYN-001"
+    },
+    {
+      "type": "approval",
+      "role": "RA",
+      "signer": "RA reviewer (synthetic)",
+      "meaning": "approved",
+      "timestamp": "2026-01-15T10:00:00Z",
+      "id": "appr:CO-SYN-001:RA"
+    },
+    {
+      "type": "approval",
+      "role": "QA",
+      "signer": "QA reviewer (synthetic)",
+      "meaning": "approved",
+      "timestamp": "2026-01-15T10:00:00Z",
+      "id": "appr:CO-SYN-001:QA"
+    },
+    {
+      "type": "market",
+      "jurisdiction": "US",
+      "id": "mkt:US"
+    },
+    {
+      "type": "language",
+      "id": "lang:EN"
+    },
+    {
+      "type": "artwork",
+      "label": "LBL-US-unit",
+      "market": "US",
+      "lang": "EN",
+      "level": "unit",
+      "version": 1,
+      "id": "aw:LBL-US-unit:v1"
+    },
+    {
+      "type": "element",
+      "kind": "device_name",
+      "label": "LBL-US-unit",
+      "id": "el:LBL-US-unit:device_name"
+    },
+    {
+      "type": "element",
+      "kind": "manufacturer",
+      "label": "LBL-US-unit",
+      "id": "el:LBL-US-unit:manufacturer"
+    },
+    {
+      "type": "element",
+      "kind": "lot",
+      "label": "LBL-US-unit",
+      "id": "el:LBL-US-unit:lot"
+    },
+    {
+      "type": "element",
+      "kind": "udi_carrier",
+      "label": "LBL-US-unit",
+      "id": "el:LBL-US-unit:udi_carrier"
+    },
+    {
+      "type": "element",
+      "kind": "use_by",
+      "label": "LBL-US-unit",
+      "id": "el:LBL-US-unit:use_by"
+    },
+    {
+      "type": "element",
+      "kind": "sterile",
+      "label": "LBL-US-unit",
+      "id": "el:LBL-US-unit:sterile"
+    },
+    {
+      "type": "element",
+      "kind": "single_use",
+      "label": "LBL-US-unit",
+      "id": "el:LBL-US-unit:single_use"
+    },
+    {
+      "type": "element",
+      "kind": "rx_only",
+      "label": "LBL-US-unit",
+      "id": "el:LBL-US-unit:rx_only"
+    },
+    {
+      "type": "artwork",
+      "label": "LBL-US-box",
+      "market": "US",
+      "lang": "EN",
+      "level": "box",
+      "version": 1,
+      "id": "aw:LBL-US-box:v1"
+    },
+    {
+      "type": "element",
+      "kind": "device_name",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:device_name"
+    },
+    {
+      "type": "element",
+      "kind": "manufacturer",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:manufacturer"
+    },
+    {
+      "type": "element",
+      "kind": "lot",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:lot"
+    },
+    {
+      "type": "element",
+      "kind": "udi_carrier",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:udi_carrier"
+    },
+    {
+      "type": "element",
+      "kind": "use_by",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:use_by"
+    },
+    {
+      "type": "element",
+      "kind": "sterile",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:sterile"
+    },
+    {
+      "type": "element",
+      "kind": "single_use",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:single_use"
+    },
+    {
+      "type": "element",
+      "kind": "rx_only",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:rx_only"
+    },
+    {
+      "type": "element",
+      "kind": "quantity",
+      "label": "LBL-US-box",
+      "id": "el:LBL-US-box:quantity"
+    },
+    {
+      "type": "market",
+      "jurisdiction": "EU",
+      "id": "mkt:DE"
+    },
+    {
+      "type": "language",
+      "id": "lang:DE"
+    },
+    {
+      "type": "artwork",
+      "label": "LBL-DE-unit",
+      "market": "DE",
+      "lang": "DE",
+      "level": "unit",
+      "version": 1,
+      "id": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "type": "element",
+      "kind": "device_name",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:device_name"
+    },
+    {
+      "type": "element",
+      "kind": "manufacturer",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:manufacturer"
+    },
+    {
+      "type": "element",
+      "kind": "lot",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:lot"
+    },
+    {
+      "type": "element",
+      "kind": "udi_carrier",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:udi_carrier"
+    },
+    {
+      "type": "element",
+      "kind": "use_by",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:use_by"
+    },
+    {
+      "type": "element",
+      "kind": "sterile",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:sterile"
+    },
+    {
+      "type": "element",
+      "kind": "single_use",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:single_use"
+    },
+    {
+      "type": "element",
+      "kind": "auth_rep",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:auth_rep"
+    },
+    {
+      "type": "element",
+      "kind": "md",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:md"
+    },
+    {
+      "type": "element",
+      "kind": "ce_mark",
+      "label": "LBL-DE-unit",
+      "id": "el:LBL-DE-unit:ce_mark"
+    },
+    {
+      "type": "artwork",
+      "label": "LBL-DE-box",
+      "market": "DE",
+      "lang": "DE",
+      "level": "box",
+      "version": 1,
+      "id": "aw:LBL-DE-box:v1"
+    },
+    {
+      "type": "element",
+      "kind": "device_name",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:device_name"
+    },
+    {
+      "type": "element",
+      "kind": "manufacturer",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:manufacturer"
+    },
+    {
+      "type": "element",
+      "kind": "lot",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:lot"
+    },
+    {
+      "type": "element",
+      "kind": "udi_carrier",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:udi_carrier"
+    },
+    {
+      "type": "element",
+      "kind": "use_by",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:use_by"
+    },
+    {
+      "type": "element",
+      "kind": "sterile",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:sterile"
+    },
+    {
+      "type": "element",
+      "kind": "single_use",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:single_use"
+    },
+    {
+      "type": "element",
+      "kind": "auth_rep",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:auth_rep"
+    },
+    {
+      "type": "element",
+      "kind": "md",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:md"
+    },
+    {
+      "type": "element",
+      "kind": "ce_mark",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:ce_mark"
+    },
+    {
+      "type": "element",
+      "kind": "quantity",
+      "label": "LBL-DE-box",
+      "id": "el:LBL-DE-box:quantity"
+    },
+    {
+      "type": "market",
+      "jurisdiction": "EU",
+      "id": "mkt:FR"
+    },
+    {
+      "type": "language",
+      "id": "lang:FR"
+    },
+    {
+      "type": "artwork",
+      "label": "LBL-FR-unit",
+      "market": "FR",
+      "lang": "FR",
+      "level": "unit",
+      "version": 1,
+      "id": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "type": "element",
+      "kind": "device_name",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:device_name"
+    },
+    {
+      "type": "element",
+      "kind": "manufacturer",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:manufacturer"
+    },
+    {
+      "type": "element",
+      "kind": "lot",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:lot"
+    },
+    {
+      "type": "element",
+      "kind": "udi_carrier",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:udi_carrier"
+    },
+    {
+      "type": "element",
+      "kind": "use_by",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:use_by"
+    },
+    {
+      "type": "element",
+      "kind": "sterile",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:sterile"
+    },
+    {
+      "type": "element",
+      "kind": "single_use",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:single_use"
+    },
+    {
+      "type": "element",
+      "kind": "auth_rep",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:auth_rep"
+    },
+    {
+      "type": "element",
+      "kind": "md",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:md"
+    },
+    {
+      "type": "element",
+      "kind": "ce_mark",
+      "label": "LBL-FR-unit",
+      "id": "el:LBL-FR-unit:ce_mark"
+    },
+    {
+      "type": "artwork",
+      "label": "LBL-FR-box",
+      "market": "FR",
+      "lang": "FR",
+      "level": "box",
+      "version": 1,
+      "id": "aw:LBL-FR-box:v1"
+    },
+    {
+      "type": "element",
+      "kind": "device_name",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:device_name"
+    },
+    {
+      "type": "element",
+      "kind": "manufacturer",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:manufacturer"
+    },
+    {
+      "type": "element",
+      "kind": "lot",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:lot"
+    },
+    {
+      "type": "element",
+      "kind": "udi_carrier",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:udi_carrier"
+    },
+    {
+      "type": "element",
+      "kind": "use_by",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:use_by"
+    },
+    {
+      "type": "element",
+      "kind": "sterile",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:sterile"
+    },
+    {
+      "type": "element",
+      "kind": "single_use",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:single_use"
+    },
+    {
+      "type": "element",
+      "kind": "auth_rep",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:auth_rep"
+    },
+    {
+      "type": "element",
+      "kind": "md",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:md"
+    },
+    {
+      "type": "element",
+      "kind": "ce_mark",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:ce_mark"
+    },
+    {
+      "type": "element",
+      "kind": "quantity",
+      "label": "LBL-FR-box",
+      "id": "el:LBL-FR-box:quantity"
+    },
+    {
+      "type": "rule_change",
+      "title": "ISO 15223-1:2021/Amd 1:2025: modified EC REP symbol (title per ISO listing)",
+      "status": "approved by RA (SIMULATED)",
+      "note": "new glyph not verified; synthetic placeholder used",
+      "id": "rc:RC-SYN-001"
+    },
+    {
+      "type": "change_order",
+      "title": "ISO 15223-1:2021/Amd 1:2025: modified EC REP symbol (title per ISO listing)",
+      "status": "released (SIMULATED approval)",
+      "id": "co:CO-SYN-002"
+    },
+    {
+      "type": "approval",
+      "role": "RA",
+      "signer": "RA reviewer (synthetic)",
+      "meaning": "approved (SIMULATED)",
+      "timestamp": "2026-10-19T09:00:00Z",
+      "id": "appr:CO-SYN-002:RA"
+    },
+    {
+      "type": "approval",
+      "role": "QA",
+      "signer": "QA reviewer (synthetic)",
+      "meaning": "approved (SIMULATED)",
+      "timestamp": "2026-10-19T09:00:00Z",
+      "id": "appr:CO-SYN-002:QA"
+    }
+  ],
+  "links": [
+    {
+      "rel": "REFERENCES",
+      "source": "req:EU-23.1(h)",
+      "target": "std:ISO 15223-1:2021"
+    },
+    {
+      "rel": "WATCHES",
+      "source": "req:EU-VI-3.9(a)",
+      "target": "attr:name"
+    },
+    {
+      "rel": "WATCHES",
+      "source": "req:EU-VI-3.9(b)",
+      "target": "attr:model"
+    },
+    {
+      "rel": "WATCHES",
+      "source": "req:EU-VI-3.9(c)",
+      "target": "attr:single_use"
+    },
+    {
+      "rel": "WATCHES",
+      "source": "req:EU-VI-3.9(d)",
+      "target": "attr:sterile"
+    },
+    {
+      "rel": "WATCHES",
+      "source": "req:EU-VI-3.9(e)",
+      "target": "attr:needs_sterilization_before_use"
+    },
+    {
+      "rel": "WATCHES",
+      "source": "req:EU-VI-3.9(f)",
+      "target": "attr:pack_quantity"
+    },
+    {
+      "rel": "WATCHES",
+      "source": "req:EU-VI-3.9(g)",
+      "target": "attr:critical_warnings"
+    },
+    {
+      "rel": "WATCHES",
+      "source": "req:US-830.310(b)(14)",
+      "target": "attr:pack_quantity"
+    },
+    {
+      "rel": "DEFINED_IN",
+      "source": "sym:manufacturer",
+      "target": "std:ISO 15223-1:2021"
+    },
+    {
+      "rel": "DEFINED_IN",
+      "source": "sym:ec_rep_2021",
+      "target": "std:ISO 15223-1:2021"
+    },
+    {
+      "rel": "DEFINED_IN",
+      "source": "sym:ec_rep_a1",
+      "target": "std:ISO 15223-1:2021+A1:2025"
+    },
+    {
+      "rel": "DEFINED_IN",
+      "source": "sym:lot",
+      "target": "std:ISO 15223-1:2021"
+    },
+    {
+      "rel": "DEFINED_IN",
+      "source": "sym:use_by",
+      "target": "std:ISO 15223-1:2021"
+    },
+    {
+      "rel": "DEFINED_IN",
+      "source": "sym:sterile_eo",
+      "target": "std:ISO 15223-1:2021"
+    },
+    {
+      "rel": "DEFINED_IN",
+      "source": "sym:do_not_reuse",
+      "target": "std:ISO 15223-1:2021"
+    },
+    {
+      "rel": "DEFINED_IN",
+      "source": "sym:md",
+      "target": "std:ISO 15223-1:2021"
+    },
+    {
+      "rel": "APPROVED_BY",
+      "source": "co:CO-SYN-001",
+      "target": "appr:CO-SYN-001:RA"
+    },
+    {
+      "rel": "APPROVED_BY",
+      "source": "co:CO-SYN-001",
+      "target": "appr:CO-SYN-001:QA"
+    },
+    {
+      "rel": "FOR_MARKET",
+      "source": "aw:LBL-US-unit:v1",
+      "target": "mkt:US"
+    },
+    {
+      "rel": "IN_LANGUAGE",
+      "source": "aw:LBL-US-unit:v1",
+      "target": "lang:EN"
+    },
+    {
+      "rel": "RELEASED_BY",
+      "source": "aw:LBL-US-unit:v1",
+      "target": "co:CO-SYN-001"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-unit:device_name",
+      "target": "aw:LBL-US-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:device_name",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:device_name",
+      "target": "attr:name"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:device_name",
+      "target": "tr:device_name:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-unit:manufacturer",
+      "target": "aw:LBL-US-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:manufacturer",
+      "target": "req:US-801.1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:manufacturer",
+      "target": "attr:manufacturer"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:manufacturer",
+      "target": "sym:manufacturer"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-unit:lot",
+      "target": "aw:LBL-US-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:lot",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:lot",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:lot",
+      "target": "sym:lot"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-unit:udi_carrier",
+      "target": "aw:LBL-US-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:udi_carrier",
+      "target": "req:US-801.20"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:udi_carrier",
+      "target": "req:US-801.40"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:udi_carrier",
+      "target": "attr:gtin_unit"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:udi_carrier",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:udi_carrier",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:udi_carrier",
+      "target": "attr:serial_unit"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-unit:use_by",
+      "target": "aw:LBL-US-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:use_by",
+      "target": "req:US-801.18"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:use_by",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:use_by",
+      "target": "sym:use_by"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:use_by",
+      "target": "tr:use_by:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-unit:sterile",
+      "target": "aw:LBL-US-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:sterile",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:sterile",
+      "target": "attr:sterile"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:sterile",
+      "target": "attr:sterilization"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:sterile",
+      "target": "sym:sterile_eo"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:sterile",
+      "target": "tr:sterile:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-unit:single_use",
+      "target": "aw:LBL-US-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:single_use",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:single_use",
+      "target": "attr:single_use"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:single_use",
+      "target": "sym:do_not_reuse"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:single_use",
+      "target": "tr:single_use:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-unit:rx_only",
+      "target": "aw:LBL-US-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-unit:rx_only",
+      "target": "req:US-801.109(b)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-unit:rx_only",
+      "target": "attr:rx"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-unit:rx_only",
+      "target": "tr:rx_only:EN"
+    },
+    {
+      "rel": "FOR_MARKET",
+      "source": "aw:LBL-US-box:v1",
+      "target": "mkt:US"
+    },
+    {
+      "rel": "IN_LANGUAGE",
+      "source": "aw:LBL-US-box:v1",
+      "target": "lang:EN"
+    },
+    {
+      "rel": "RELEASED_BY",
+      "source": "aw:LBL-US-box:v1",
+      "target": "co:CO-SYN-001"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:device_name",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:device_name",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:device_name",
+      "target": "attr:name"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:device_name",
+      "target": "tr:device_name:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:manufacturer",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:manufacturer",
+      "target": "req:US-801.1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:manufacturer",
+      "target": "attr:manufacturer"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:manufacturer",
+      "target": "sym:manufacturer"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:lot",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:lot",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:lot",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:lot",
+      "target": "sym:lot"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:udi_carrier",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:udi_carrier",
+      "target": "req:US-801.20"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:udi_carrier",
+      "target": "req:US-801.40"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:udi_carrier",
+      "target": "attr:gtin_box"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:udi_carrier",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:udi_carrier",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:udi_carrier",
+      "target": "attr:serial_box"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:use_by",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:use_by",
+      "target": "req:US-801.18"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:use_by",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:use_by",
+      "target": "sym:use_by"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:use_by",
+      "target": "tr:use_by:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:sterile",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:sterile",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:sterile",
+      "target": "attr:sterile"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:sterile",
+      "target": "attr:sterilization"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:sterile",
+      "target": "sym:sterile_eo"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:sterile",
+      "target": "tr:sterile:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:single_use",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:single_use",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:single_use",
+      "target": "attr:single_use"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:single_use",
+      "target": "sym:do_not_reuse"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:single_use",
+      "target": "tr:single_use:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:rx_only",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:rx_only",
+      "target": "req:US-801.109(b)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:rx_only",
+      "target": "attr:rx"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:rx_only",
+      "target": "tr:rx_only:EN"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-US-box:quantity",
+      "target": "aw:LBL-US-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-US-box:quantity",
+      "target": "req:SPEC-SYN-001"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-US-box:quantity",
+      "target": "attr:pack_quantity"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-US-box:quantity",
+      "target": "tr:quantity:EN"
+    },
+    {
+      "rel": "FOR_MARKET",
+      "source": "aw:LBL-DE-unit:v1",
+      "target": "mkt:DE"
+    },
+    {
+      "rel": "IN_LANGUAGE",
+      "source": "aw:LBL-DE-unit:v1",
+      "target": "lang:DE"
+    },
+    {
+      "rel": "RELEASED_BY",
+      "source": "aw:LBL-DE-unit:v1",
+      "target": "co:CO-SYN-001"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:device_name",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:device_name",
+      "target": "req:EU-23.2(a)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:device_name",
+      "target": "attr:name"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:device_name",
+      "target": "tr:device_name:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:manufacturer",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:manufacturer",
+      "target": "req:EU-23.2(c)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:manufacturer",
+      "target": "attr:manufacturer"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:manufacturer",
+      "target": "sym:manufacturer"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:lot",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:lot",
+      "target": "req:EU-23.2(g)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:lot",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:lot",
+      "target": "sym:lot"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:udi_carrier",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:udi_carrier",
+      "target": "req:EU-23.2(h)"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:udi_carrier",
+      "target": "req:EU-VI-C4.1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:udi_carrier",
+      "target": "attr:gtin_unit"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:udi_carrier",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:udi_carrier",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:udi_carrier",
+      "target": "attr:serial_unit"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:use_by",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:use_by",
+      "target": "req:EU-23.2(i)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:use_by",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:use_by",
+      "target": "sym:use_by"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:use_by",
+      "target": "tr:use_by:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:sterile",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:sterile",
+      "target": "req:EU-23.2(l)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:sterile",
+      "target": "attr:sterile"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:sterile",
+      "target": "attr:sterilization"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:sterile",
+      "target": "sym:sterile_eo"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:sterile",
+      "target": "tr:sterile:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:single_use",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:single_use",
+      "target": "req:EU-23.2(n)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:single_use",
+      "target": "attr:single_use"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:single_use",
+      "target": "sym:do_not_reuse"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:single_use",
+      "target": "tr:single_use:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:auth_rep",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:auth_rep",
+      "target": "req:EU-23.2(d)"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:auth_rep",
+      "target": "req:EU-23.1(h)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:auth_rep",
+      "target": "attr:auth_rep"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:auth_rep",
+      "target": "sym:ec_rep_a1"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:md",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-unit:md",
+      "target": "req:EU-23.2(q)"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:md",
+      "target": "sym:md"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:md",
+      "target": "tr:md:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-unit:ce_mark",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-unit:ce_mark",
+      "target": "attr:notified_body"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-unit:ce_mark",
+      "target": "sym:ce"
+    },
+    {
+      "rel": "FOR_MARKET",
+      "source": "aw:LBL-DE-box:v1",
+      "target": "mkt:DE"
+    },
+    {
+      "rel": "IN_LANGUAGE",
+      "source": "aw:LBL-DE-box:v1",
+      "target": "lang:DE"
+    },
+    {
+      "rel": "RELEASED_BY",
+      "source": "aw:LBL-DE-box:v1",
+      "target": "co:CO-SYN-001"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:device_name",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:device_name",
+      "target": "req:EU-23.2(a)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:device_name",
+      "target": "attr:name"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:device_name",
+      "target": "tr:device_name:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:manufacturer",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:manufacturer",
+      "target": "req:EU-23.2(c)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:manufacturer",
+      "target": "attr:manufacturer"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:manufacturer",
+      "target": "sym:manufacturer"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:lot",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:lot",
+      "target": "req:EU-23.2(g)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:lot",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:lot",
+      "target": "sym:lot"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:udi_carrier",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:udi_carrier",
+      "target": "req:EU-23.2(h)"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:udi_carrier",
+      "target": "req:EU-VI-C4.1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:udi_carrier",
+      "target": "attr:gtin_box"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:udi_carrier",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:udi_carrier",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:udi_carrier",
+      "target": "attr:serial_box"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:use_by",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:use_by",
+      "target": "req:EU-23.2(i)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:use_by",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:use_by",
+      "target": "sym:use_by"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:use_by",
+      "target": "tr:use_by:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:sterile",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:sterile",
+      "target": "req:EU-23.2(l)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:sterile",
+      "target": "attr:sterile"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:sterile",
+      "target": "attr:sterilization"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:sterile",
+      "target": "sym:sterile_eo"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:sterile",
+      "target": "tr:sterile:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:single_use",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:single_use",
+      "target": "req:EU-23.2(n)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:single_use",
+      "target": "attr:single_use"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:single_use",
+      "target": "sym:do_not_reuse"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:single_use",
+      "target": "tr:single_use:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:auth_rep",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:auth_rep",
+      "target": "req:EU-23.2(d)"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:auth_rep",
+      "target": "req:EU-23.1(h)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:auth_rep",
+      "target": "attr:auth_rep"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:auth_rep",
+      "target": "sym:ec_rep_a1"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:md",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:md",
+      "target": "req:EU-23.2(q)"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:md",
+      "target": "sym:md"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:md",
+      "target": "tr:md:DE"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:ce_mark",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:ce_mark",
+      "target": "attr:notified_body"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:ce_mark",
+      "target": "sym:ce"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-DE-box:quantity",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-DE-box:quantity",
+      "target": "req:EU-23.2(b)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-DE-box:quantity",
+      "target": "attr:pack_quantity"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-DE-box:quantity",
+      "target": "tr:quantity:DE"
+    },
+    {
+      "rel": "FOR_MARKET",
+      "source": "aw:LBL-FR-unit:v1",
+      "target": "mkt:FR"
+    },
+    {
+      "rel": "IN_LANGUAGE",
+      "source": "aw:LBL-FR-unit:v1",
+      "target": "lang:FR"
+    },
+    {
+      "rel": "RELEASED_BY",
+      "source": "aw:LBL-FR-unit:v1",
+      "target": "co:CO-SYN-001"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:device_name",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:device_name",
+      "target": "req:EU-23.2(a)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:device_name",
+      "target": "attr:name"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:device_name",
+      "target": "tr:device_name:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:manufacturer",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:manufacturer",
+      "target": "req:EU-23.2(c)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:manufacturer",
+      "target": "attr:manufacturer"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:manufacturer",
+      "target": "sym:manufacturer"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:lot",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:lot",
+      "target": "req:EU-23.2(g)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:lot",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:lot",
+      "target": "sym:lot"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:udi_carrier",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:udi_carrier",
+      "target": "req:EU-23.2(h)"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:udi_carrier",
+      "target": "req:EU-VI-C4.1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:udi_carrier",
+      "target": "attr:gtin_unit"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:udi_carrier",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:udi_carrier",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:udi_carrier",
+      "target": "attr:serial_unit"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:use_by",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:use_by",
+      "target": "req:EU-23.2(i)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:use_by",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:use_by",
+      "target": "sym:use_by"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:use_by",
+      "target": "tr:use_by:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:sterile",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:sterile",
+      "target": "req:EU-23.2(l)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:sterile",
+      "target": "attr:sterile"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:sterile",
+      "target": "attr:sterilization"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:sterile",
+      "target": "sym:sterile_eo"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:sterile",
+      "target": "tr:sterile:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:single_use",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:single_use",
+      "target": "req:EU-23.2(n)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:single_use",
+      "target": "attr:single_use"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:single_use",
+      "target": "sym:do_not_reuse"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:single_use",
+      "target": "tr:single_use:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:auth_rep",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:auth_rep",
+      "target": "req:EU-23.2(d)"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:auth_rep",
+      "target": "req:EU-23.1(h)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:auth_rep",
+      "target": "attr:auth_rep"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:auth_rep",
+      "target": "sym:ec_rep_a1"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:md",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-unit:md",
+      "target": "req:EU-23.2(q)"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:md",
+      "target": "sym:md"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:md",
+      "target": "tr:md:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-unit:ce_mark",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-unit:ce_mark",
+      "target": "attr:notified_body"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-unit:ce_mark",
+      "target": "sym:ce"
+    },
+    {
+      "rel": "FOR_MARKET",
+      "source": "aw:LBL-FR-box:v1",
+      "target": "mkt:FR"
+    },
+    {
+      "rel": "IN_LANGUAGE",
+      "source": "aw:LBL-FR-box:v1",
+      "target": "lang:FR"
+    },
+    {
+      "rel": "RELEASED_BY",
+      "source": "aw:LBL-FR-box:v1",
+      "target": "co:CO-SYN-001"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:device_name",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:device_name",
+      "target": "req:EU-23.2(a)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:device_name",
+      "target": "attr:name"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:device_name",
+      "target": "tr:device_name:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:manufacturer",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:manufacturer",
+      "target": "req:EU-23.2(c)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:manufacturer",
+      "target": "attr:manufacturer"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:manufacturer",
+      "target": "sym:manufacturer"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:lot",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:lot",
+      "target": "req:EU-23.2(g)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:lot",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:lot",
+      "target": "sym:lot"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:udi_carrier",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:udi_carrier",
+      "target": "req:EU-23.2(h)"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:udi_carrier",
+      "target": "req:EU-VI-C4.1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:udi_carrier",
+      "target": "attr:gtin_box"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:udi_carrier",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:udi_carrier",
+      "target": "attr:lot"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:udi_carrier",
+      "target": "attr:serial_box"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:use_by",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:use_by",
+      "target": "req:EU-23.2(i)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:use_by",
+      "target": "attr:expiry"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:use_by",
+      "target": "sym:use_by"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:use_by",
+      "target": "tr:use_by:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:sterile",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:sterile",
+      "target": "req:EU-23.2(l)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:sterile",
+      "target": "attr:sterile"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:sterile",
+      "target": "attr:sterilization"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:sterile",
+      "target": "sym:sterile_eo"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:sterile",
+      "target": "tr:sterile:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:single_use",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:single_use",
+      "target": "req:EU-23.2(n)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:single_use",
+      "target": "attr:single_use"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:single_use",
+      "target": "sym:do_not_reuse"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:single_use",
+      "target": "tr:single_use:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:auth_rep",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:auth_rep",
+      "target": "req:EU-23.2(d)"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:auth_rep",
+      "target": "req:EU-23.1(h)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:auth_rep",
+      "target": "attr:auth_rep"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:auth_rep",
+      "target": "sym:ec_rep_a1"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:md",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:md",
+      "target": "req:EU-23.2(q)"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:md",
+      "target": "sym:md"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:md",
+      "target": "tr:md:FR"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:ce_mark",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:ce_mark",
+      "target": "attr:notified_body"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:ce_mark",
+      "target": "sym:ce"
+    },
+    {
+      "rel": "PLACED_ON",
+      "source": "el:LBL-FR-box:quantity",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "REQUIRED_BY",
+      "source": "el:LBL-FR-box:quantity",
+      "target": "req:EU-23.2(b)"
+    },
+    {
+      "rel": "SOURCED_FROM",
+      "source": "el:LBL-FR-box:quantity",
+      "target": "attr:pack_quantity"
+    },
+    {
+      "rel": "RENDERED_AS",
+      "source": "el:LBL-FR-box:quantity",
+      "target": "tr:quantity:FR"
+    },
+    {
+      "rel": "REVISES",
+      "source": "rc:RC-SYN-001",
+      "target": "sym:ec_rep_2021"
+    },
+    {
+      "rel": "INTRODUCES",
+      "source": "rc:RC-SYN-001",
+      "target": "sym:ec_rep_a1"
+    },
+    {
+      "rel": "IMPACTS",
+      "source": "co:CO-SYN-002",
+      "target": "aw:LBL-DE-box:v1"
+    },
+    {
+      "rel": "IMPACTS",
+      "source": "co:CO-SYN-002",
+      "target": "aw:LBL-DE-unit:v1"
+    },
+    {
+      "rel": "IMPACTS",
+      "source": "co:CO-SYN-002",
+      "target": "aw:LBL-FR-unit:v1"
+    },
+    {
+      "rel": "IMPACTS",
+      "source": "co:CO-SYN-002",
+      "target": "aw:LBL-FR-box:v1"
+    },
+    {
+      "rel": "APPROVED_BY",
+      "source": "co:CO-SYN-002",
+      "target": "appr:CO-SYN-002:RA"
+    },
+    {
+      "rel": "APPROVED_BY",
+      "source": "co:CO-SYN-002",
+      "target": "appr:CO-SYN-002:QA"
+    }
+  ]
+}

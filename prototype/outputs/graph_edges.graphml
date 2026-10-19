@@ -1,0 +1,1123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="rel" attr.type="string"/>
+<graph edgedefault="directed"><node id="req:EU-23.1(h)"/>
+<node id="std:ISO 15223-1:2021"/>
+<node id="req:EU-VI-3.9(a)"/>
+<node id="attr:name"/>
+<node id="req:EU-VI-3.9(b)"/>
+<node id="attr:model"/>
+<node id="req:EU-VI-3.9(c)"/>
+<node id="attr:single_use"/>
+<node id="req:EU-VI-3.9(d)"/>
+<node id="attr:sterile"/>
+<node id="req:EU-VI-3.9(e)"/>
+<node id="attr:needs_sterilization_before_use"/>
+<node id="req:EU-VI-3.9(f)"/>
+<node id="attr:pack_quantity"/>
+<node id="req:EU-VI-3.9(g)"/>
+<node id="attr:critical_warnings"/>
+<node id="req:US-830.310(b)(14)"/>
+<node id="sym:manufacturer"/>
+<node id="sym:ec_rep_2021"/>
+<node id="sym:ec_rep_a1"/>
+<node id="std:ISO 15223-1:2021+A1:2025"/>
+<node id="sym:lot"/>
+<node id="sym:use_by"/>
+<node id="sym:sterile_eo"/>
+<node id="sym:do_not_reuse"/>
+<node id="sym:md"/>
+<node id="co:CO-SYN-001"/>
+<node id="appr:CO-SYN-001:RA"/>
+<node id="appr:CO-SYN-001:QA"/>
+<node id="aw:LBL-US-unit:v1"/>
+<node id="mkt:US"/>
+<node id="lang:EN"/>
+<node id="el:LBL-US-unit:device_name"/>
+<node id="req:SPEC-SYN-001"/>
+<node id="tr:device_name:EN"/>
+<node id="el:LBL-US-unit:manufacturer"/>
+<node id="req:US-801.1"/>
+<node id="attr:manufacturer"/>
+<node id="el:LBL-US-unit:lot"/>
+<node id="attr:lot"/>
+<node id="el:LBL-US-unit:udi_carrier"/>
+<node id="req:US-801.20"/>
+<node id="req:US-801.40"/>
+<node id="attr:gtin_unit"/>
+<node id="attr:expiry"/>
+<node id="attr:serial_unit"/>
+<node id="el:LBL-US-unit:use_by"/>
+<node id="req:US-801.18"/>
+<node id="tr:use_by:EN"/>
+<node id="el:LBL-US-unit:sterile"/>
+<node id="attr:sterilization"/>
+<node id="tr:sterile:EN"/>
+<node id="el:LBL-US-unit:single_use"/>
+<node id="tr:single_use:EN"/>
+<node id="el:LBL-US-unit:rx_only"/>
+<node id="req:US-801.109(b)"/>
+<node id="attr:rx"/>
+<node id="tr:rx_only:EN"/>
+<node id="aw:LBL-US-box:v1"/>
+<node id="el:LBL-US-box:device_name"/>
+<node id="el:LBL-US-box:manufacturer"/>
+<node id="el:LBL-US-box:lot"/>
+<node id="el:LBL-US-box:udi_carrier"/>
+<node id="attr:gtin_box"/>
+<node id="attr:serial_box"/>
+<node id="el:LBL-US-box:use_by"/>
+<node id="el:LBL-US-box:sterile"/>
+<node id="el:LBL-US-box:single_use"/>
+<node id="el:LBL-US-box:rx_only"/>
+<node id="el:LBL-US-box:quantity"/>
+<node id="tr:quantity:EN"/>
+<node id="aw:LBL-DE-unit:v1"/>
+<node id="mkt:DE"/>
+<node id="lang:DE"/>
+<node id="el:LBL-DE-unit:device_name"/>
+<node id="req:EU-23.2(a)"/>
+<node id="tr:device_name:DE"/>
+<node id="el:LBL-DE-unit:manufacturer"/>
+<node id="req:EU-23.2(c)"/>
+<node id="el:LBL-DE-unit:lot"/>
+<node id="req:EU-23.2(g)"/>
+<node id="el:LBL-DE-unit:udi_carrier"/>
+<node id="req:EU-23.2(h)"/>
+<node id="req:EU-VI-C4.1"/>
+<node id="el:LBL-DE-unit:use_by"/>
+<node id="req:EU-23.2(i)"/>
+<node id="tr:use_by:DE"/>
+<node id="el:LBL-DE-unit:sterile"/>
+<node id="req:EU-23.2(l)"/>
+<node id="tr:sterile:DE"/>
+<node id="el:LBL-DE-unit:single_use"/>
+<node id="req:EU-23.2(n)"/>
+<node id="tr:single_use:DE"/>
+<node id="el:LBL-DE-unit:auth_rep"/>
+<node id="req:EU-23.2(d)"/>
+<node id="attr:auth_rep"/>
+<node id="el:LBL-DE-unit:md"/>
+<node id="req:EU-23.2(q)"/>
+<node id="tr:md:DE"/>
+<node id="el:LBL-DE-unit:ce_mark"/>
+<node id="attr:notified_body"/>
+<node id="sym:ce"/>
+<node id="aw:LBL-DE-box:v1"/>
+<node id="el:LBL-DE-box:device_name"/>
+<node id="el:LBL-DE-box:manufacturer"/>
+<node id="el:LBL-DE-box:lot"/>
+<node id="el:LBL-DE-box:udi_carrier"/>
+<node id="el:LBL-DE-box:use_by"/>
+<node id="el:LBL-DE-box:sterile"/>
+<node id="el:LBL-DE-box:single_use"/>
+<node id="el:LBL-DE-box:auth_rep"/>
+<node id="el:LBL-DE-box:md"/>
+<node id="el:LBL-DE-box:ce_mark"/>
+<node id="el:LBL-DE-box:quantity"/>
+<node id="req:EU-23.2(b)"/>
+<node id="tr:quantity:DE"/>
+<node id="aw:LBL-FR-unit:v1"/>
+<node id="mkt:FR"/>
+<node id="lang:FR"/>
+<node id="el:LBL-FR-unit:device_name"/>
+<node id="tr:device_name:FR"/>
+<node id="el:LBL-FR-unit:manufacturer"/>
+<node id="el:LBL-FR-unit:lot"/>
+<node id="el:LBL-FR-unit:udi_carrier"/>
+<node id="el:LBL-FR-unit:use_by"/>
+<node id="tr:use_by:FR"/>
+<node id="el:LBL-FR-unit:sterile"/>
+<node id="tr:sterile:FR"/>
+<node id="el:LBL-FR-unit:single_use"/>
+<node id="tr:single_use:FR"/>
+<node id="el:LBL-FR-unit:auth_rep"/>
+<node id="el:LBL-FR-unit:md"/>
+<node id="tr:md:FR"/>
+<node id="el:LBL-FR-unit:ce_mark"/>
+<node id="aw:LBL-FR-box:v1"/>
+<node id="el:LBL-FR-box:device_name"/>
+<node id="el:LBL-FR-box:manufacturer"/>
+<node id="el:LBL-FR-box:lot"/>
+<node id="el:LBL-FR-box:udi_carrier"/>
+<node id="el:LBL-FR-box:use_by"/>
+<node id="el:LBL-FR-box:sterile"/>
+<node id="el:LBL-FR-box:single_use"/>
+<node id="el:LBL-FR-box:auth_rep"/>
+<node id="el:LBL-FR-box:md"/>
+<node id="el:LBL-FR-box:ce_mark"/>
+<node id="el:LBL-FR-box:quantity"/>
+<node id="tr:quantity:FR"/>
+<node id="rc:RC-SYN-001"/>
+<node id="co:CO-SYN-002"/>
+<node id="appr:CO-SYN-002:RA"/>
+<node id="appr:CO-SYN-002:QA"/>
+<edge source="req:EU-23.1(h)" target="std:ISO 15223-1:2021">
+  <data key="d0">REFERENCES</data>
+</edge>
+<edge source="req:EU-VI-3.9(a)" target="attr:name">
+  <data key="d0">WATCHES</data>
+</edge>
+<edge source="req:EU-VI-3.9(b)" target="attr:model">
+  <data key="d0">WATCHES</data>
+</edge>
+<edge source="req:EU-VI-3.9(c)" target="attr:single_use">
+  <data key="d0">WATCHES</data>
+</edge>
+<edge source="req:EU-VI-3.9(d)" target="attr:sterile">
+  <data key="d0">WATCHES</data>
+</edge>
+<edge source="req:EU-VI-3.9(e)" target="attr:needs_sterilization_before_use">
+  <data key="d0">WATCHES</data>
+</edge>
+<edge source="req:EU-VI-3.9(f)" target="attr:pack_quantity">
+  <data key="d0">WATCHES</data>
+</edge>
+<edge source="req:EU-VI-3.9(g)" target="attr:critical_warnings">
+  <data key="d0">WATCHES</data>
+</edge>
+<edge source="req:US-830.310(b)(14)" target="attr:pack_quantity">
+  <data key="d0">WATCHES</data>
+</edge>
+<edge source="sym:manufacturer" target="std:ISO 15223-1:2021">
+  <data key="d0">DEFINED_IN</data>
+</edge>
+<edge source="sym:ec_rep_2021" target="std:ISO 15223-1:2021">
+  <data key="d0">DEFINED_IN</data>
+</edge>
+<edge source="sym:ec_rep_a1" target="std:ISO 15223-1:2021+A1:2025">
+  <data key="d0">DEFINED_IN</data>
+</edge>
+<edge source="sym:lot" target="std:ISO 15223-1:2021">
+  <data key="d0">DEFINED_IN</data>
+</edge>
+<edge source="sym:use_by" target="std:ISO 15223-1:2021">
+  <data key="d0">DEFINED_IN</data>
+</edge>
+<edge source="sym:sterile_eo" target="std:ISO 15223-1:2021">
+  <data key="d0">DEFINED_IN</data>
+</edge>
+<edge source="sym:do_not_reuse" target="std:ISO 15223-1:2021">
+  <data key="d0">DEFINED_IN</data>
+</edge>
+<edge source="sym:md" target="std:ISO 15223-1:2021">
+  <data key="d0">DEFINED_IN</data>
+</edge>
+<edge source="co:CO-SYN-001" target="appr:CO-SYN-001:RA">
+  <data key="d0">APPROVED_BY</data>
+</edge>
+<edge source="co:CO-SYN-001" target="appr:CO-SYN-001:QA">
+  <data key="d0">APPROVED_BY</data>
+</edge>
+<edge source="aw:LBL-US-unit:v1" target="mkt:US">
+  <data key="d0">FOR_MARKET</data>
+</edge>
+<edge source="aw:LBL-US-unit:v1" target="lang:EN">
+  <data key="d0">IN_LANGUAGE</data>
+</edge>
+<edge source="aw:LBL-US-unit:v1" target="co:CO-SYN-001">
+  <data key="d0">RELEASED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:device_name" target="aw:LBL-US-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-unit:device_name" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:device_name" target="attr:name">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:device_name" target="tr:device_name:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:manufacturer" target="aw:LBL-US-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-unit:manufacturer" target="req:US-801.1">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:manufacturer" target="attr:manufacturer">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:manufacturer" target="sym:manufacturer">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:lot" target="aw:LBL-US-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-unit:lot" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:lot" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:lot" target="sym:lot">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:udi_carrier" target="aw:LBL-US-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-unit:udi_carrier" target="req:US-801.20">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:udi_carrier" target="req:US-801.40">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:udi_carrier" target="attr:gtin_unit">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:udi_carrier" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:udi_carrier" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:udi_carrier" target="attr:serial_unit">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:use_by" target="aw:LBL-US-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-unit:use_by" target="req:US-801.18">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:use_by" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:use_by" target="sym:use_by">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:use_by" target="tr:use_by:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:sterile" target="aw:LBL-US-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-unit:sterile" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:sterile" target="attr:sterile">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:sterile" target="attr:sterilization">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:sterile" target="sym:sterile_eo">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:sterile" target="tr:sterile:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:single_use" target="aw:LBL-US-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-unit:single_use" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:single_use" target="attr:single_use">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:single_use" target="sym:do_not_reuse">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:single_use" target="tr:single_use:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-unit:rx_only" target="aw:LBL-US-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-unit:rx_only" target="req:US-801.109(b)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-unit:rx_only" target="attr:rx">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-unit:rx_only" target="tr:rx_only:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="aw:LBL-US-box:v1" target="mkt:US">
+  <data key="d0">FOR_MARKET</data>
+</edge>
+<edge source="aw:LBL-US-box:v1" target="lang:EN">
+  <data key="d0">IN_LANGUAGE</data>
+</edge>
+<edge source="aw:LBL-US-box:v1" target="co:CO-SYN-001">
+  <data key="d0">RELEASED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:device_name" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:device_name" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:device_name" target="attr:name">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:device_name" target="tr:device_name:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:manufacturer" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:manufacturer" target="req:US-801.1">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:manufacturer" target="attr:manufacturer">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:manufacturer" target="sym:manufacturer">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:lot" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:lot" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:lot" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:lot" target="sym:lot">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:udi_carrier" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:udi_carrier" target="req:US-801.20">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:udi_carrier" target="req:US-801.40">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:udi_carrier" target="attr:gtin_box">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:udi_carrier" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:udi_carrier" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:udi_carrier" target="attr:serial_box">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:use_by" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:use_by" target="req:US-801.18">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:use_by" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:use_by" target="sym:use_by">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:use_by" target="tr:use_by:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:sterile" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:sterile" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:sterile" target="attr:sterile">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:sterile" target="attr:sterilization">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:sterile" target="sym:sterile_eo">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:sterile" target="tr:sterile:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:single_use" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:single_use" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:single_use" target="attr:single_use">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:single_use" target="sym:do_not_reuse">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:single_use" target="tr:single_use:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:rx_only" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:rx_only" target="req:US-801.109(b)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:rx_only" target="attr:rx">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:rx_only" target="tr:rx_only:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-US-box:quantity" target="aw:LBL-US-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-US-box:quantity" target="req:SPEC-SYN-001">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-US-box:quantity" target="attr:pack_quantity">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-US-box:quantity" target="tr:quantity:EN">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="aw:LBL-DE-unit:v1" target="mkt:DE">
+  <data key="d0">FOR_MARKET</data>
+</edge>
+<edge source="aw:LBL-DE-unit:v1" target="lang:DE">
+  <data key="d0">IN_LANGUAGE</data>
+</edge>
+<edge source="aw:LBL-DE-unit:v1" target="co:CO-SYN-001">
+  <data key="d0">RELEASED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:device_name" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:device_name" target="req:EU-23.2(a)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:device_name" target="attr:name">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:device_name" target="tr:device_name:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:manufacturer" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:manufacturer" target="req:EU-23.2(c)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:manufacturer" target="attr:manufacturer">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:manufacturer" target="sym:manufacturer">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:lot" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:lot" target="req:EU-23.2(g)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:lot" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:lot" target="sym:lot">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:udi_carrier" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:udi_carrier" target="req:EU-23.2(h)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:udi_carrier" target="req:EU-VI-C4.1">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:udi_carrier" target="attr:gtin_unit">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:udi_carrier" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:udi_carrier" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:udi_carrier" target="attr:serial_unit">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:use_by" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:use_by" target="req:EU-23.2(i)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:use_by" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:use_by" target="sym:use_by">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:use_by" target="tr:use_by:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:sterile" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:sterile" target="req:EU-23.2(l)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:sterile" target="attr:sterile">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:sterile" target="attr:sterilization">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:sterile" target="sym:sterile_eo">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:sterile" target="tr:sterile:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:single_use" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:single_use" target="req:EU-23.2(n)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:single_use" target="attr:single_use">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:single_use" target="sym:do_not_reuse">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:single_use" target="tr:single_use:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:auth_rep" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:auth_rep" target="req:EU-23.2(d)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:auth_rep" target="req:EU-23.1(h)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:auth_rep" target="attr:auth_rep">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:auth_rep" target="sym:ec_rep_a1">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:md" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:md" target="req:EU-23.2(q)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-unit:md" target="sym:md">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:md" target="tr:md:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-unit:ce_mark" target="aw:LBL-DE-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-unit:ce_mark" target="attr:notified_body">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-unit:ce_mark" target="sym:ce">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="aw:LBL-DE-box:v1" target="mkt:DE">
+  <data key="d0">FOR_MARKET</data>
+</edge>
+<edge source="aw:LBL-DE-box:v1" target="lang:DE">
+  <data key="d0">IN_LANGUAGE</data>
+</edge>
+<edge source="aw:LBL-DE-box:v1" target="co:CO-SYN-001">
+  <data key="d0">RELEASED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:device_name" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:device_name" target="req:EU-23.2(a)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:device_name" target="attr:name">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:device_name" target="tr:device_name:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:manufacturer" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:manufacturer" target="req:EU-23.2(c)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:manufacturer" target="attr:manufacturer">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:manufacturer" target="sym:manufacturer">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:lot" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:lot" target="req:EU-23.2(g)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:lot" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:lot" target="sym:lot">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:udi_carrier" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:udi_carrier" target="req:EU-23.2(h)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:udi_carrier" target="req:EU-VI-C4.1">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:udi_carrier" target="attr:gtin_box">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:udi_carrier" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:udi_carrier" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:udi_carrier" target="attr:serial_box">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:use_by" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:use_by" target="req:EU-23.2(i)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:use_by" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:use_by" target="sym:use_by">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:use_by" target="tr:use_by:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:sterile" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:sterile" target="req:EU-23.2(l)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:sterile" target="attr:sterile">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:sterile" target="attr:sterilization">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:sterile" target="sym:sterile_eo">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:sterile" target="tr:sterile:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:single_use" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:single_use" target="req:EU-23.2(n)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:single_use" target="attr:single_use">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:single_use" target="sym:do_not_reuse">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:single_use" target="tr:single_use:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:auth_rep" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:auth_rep" target="req:EU-23.2(d)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:auth_rep" target="req:EU-23.1(h)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:auth_rep" target="attr:auth_rep">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:auth_rep" target="sym:ec_rep_a1">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:md" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:md" target="req:EU-23.2(q)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:md" target="sym:md">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:md" target="tr:md:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:ce_mark" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:ce_mark" target="attr:notified_body">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:ce_mark" target="sym:ce">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-DE-box:quantity" target="aw:LBL-DE-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-DE-box:quantity" target="req:EU-23.2(b)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-DE-box:quantity" target="attr:pack_quantity">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-DE-box:quantity" target="tr:quantity:DE">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="aw:LBL-FR-unit:v1" target="mkt:FR">
+  <data key="d0">FOR_MARKET</data>
+</edge>
+<edge source="aw:LBL-FR-unit:v1" target="lang:FR">
+  <data key="d0">IN_LANGUAGE</data>
+</edge>
+<edge source="aw:LBL-FR-unit:v1" target="co:CO-SYN-001">
+  <data key="d0">RELEASED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:device_name" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:device_name" target="req:EU-23.2(a)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:device_name" target="attr:name">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:device_name" target="tr:device_name:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:manufacturer" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:manufacturer" target="req:EU-23.2(c)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:manufacturer" target="attr:manufacturer">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:manufacturer" target="sym:manufacturer">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:lot" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:lot" target="req:EU-23.2(g)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:lot" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:lot" target="sym:lot">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:udi_carrier" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:udi_carrier" target="req:EU-23.2(h)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:udi_carrier" target="req:EU-VI-C4.1">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:udi_carrier" target="attr:gtin_unit">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:udi_carrier" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:udi_carrier" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:udi_carrier" target="attr:serial_unit">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:use_by" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:use_by" target="req:EU-23.2(i)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:use_by" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:use_by" target="sym:use_by">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:use_by" target="tr:use_by:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:sterile" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:sterile" target="req:EU-23.2(l)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:sterile" target="attr:sterile">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:sterile" target="attr:sterilization">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:sterile" target="sym:sterile_eo">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:sterile" target="tr:sterile:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:single_use" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:single_use" target="req:EU-23.2(n)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:single_use" target="attr:single_use">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:single_use" target="sym:do_not_reuse">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:single_use" target="tr:single_use:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:auth_rep" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:auth_rep" target="req:EU-23.2(d)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:auth_rep" target="req:EU-23.1(h)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:auth_rep" target="attr:auth_rep">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:auth_rep" target="sym:ec_rep_a1">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:md" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:md" target="req:EU-23.2(q)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-unit:md" target="sym:md">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:md" target="tr:md:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-unit:ce_mark" target="aw:LBL-FR-unit:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-unit:ce_mark" target="attr:notified_body">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-unit:ce_mark" target="sym:ce">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="aw:LBL-FR-box:v1" target="mkt:FR">
+  <data key="d0">FOR_MARKET</data>
+</edge>
+<edge source="aw:LBL-FR-box:v1" target="lang:FR">
+  <data key="d0">IN_LANGUAGE</data>
+</edge>
+<edge source="aw:LBL-FR-box:v1" target="co:CO-SYN-001">
+  <data key="d0">RELEASED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:device_name" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:device_name" target="req:EU-23.2(a)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:device_name" target="attr:name">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:device_name" target="tr:device_name:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:manufacturer" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:manufacturer" target="req:EU-23.2(c)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:manufacturer" target="attr:manufacturer">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:manufacturer" target="sym:manufacturer">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:lot" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:lot" target="req:EU-23.2(g)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:lot" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:lot" target="sym:lot">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:udi_carrier" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:udi_carrier" target="req:EU-23.2(h)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:udi_carrier" target="req:EU-VI-C4.1">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:udi_carrier" target="attr:gtin_box">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:udi_carrier" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:udi_carrier" target="attr:lot">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:udi_carrier" target="attr:serial_box">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:use_by" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:use_by" target="req:EU-23.2(i)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:use_by" target="attr:expiry">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:use_by" target="sym:use_by">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:use_by" target="tr:use_by:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:sterile" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:sterile" target="req:EU-23.2(l)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:sterile" target="attr:sterile">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:sterile" target="attr:sterilization">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:sterile" target="sym:sterile_eo">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:sterile" target="tr:sterile:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:single_use" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:single_use" target="req:EU-23.2(n)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:single_use" target="attr:single_use">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:single_use" target="sym:do_not_reuse">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:single_use" target="tr:single_use:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:auth_rep" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:auth_rep" target="req:EU-23.2(d)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:auth_rep" target="req:EU-23.1(h)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:auth_rep" target="attr:auth_rep">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:auth_rep" target="sym:ec_rep_a1">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:md" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:md" target="req:EU-23.2(q)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:md" target="sym:md">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:md" target="tr:md:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:ce_mark" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:ce_mark" target="attr:notified_body">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:ce_mark" target="sym:ce">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="el:LBL-FR-box:quantity" target="aw:LBL-FR-box:v1">
+  <data key="d0">PLACED_ON</data>
+</edge>
+<edge source="el:LBL-FR-box:quantity" target="req:EU-23.2(b)">
+  <data key="d0">REQUIRED_BY</data>
+</edge>
+<edge source="el:LBL-FR-box:quantity" target="attr:pack_quantity">
+  <data key="d0">SOURCED_FROM</data>
+</edge>
+<edge source="el:LBL-FR-box:quantity" target="tr:quantity:FR">
+  <data key="d0">RENDERED_AS</data>
+</edge>
+<edge source="rc:RC-SYN-001" target="sym:ec_rep_2021">
+  <data key="d0">REVISES</data>
+</edge>
+<edge source="rc:RC-SYN-001" target="sym:ec_rep_a1">
+  <data key="d0">INTRODUCES</data>
+</edge>
+<edge source="co:CO-SYN-002" target="aw:LBL-DE-box:v1">
+  <data key="d0">IMPACTS</data>
+</edge>
+<edge source="co:CO-SYN-002" target="aw:LBL-DE-unit:v1">
+  <data key="d0">IMPACTS</data>
+</edge>
+<edge source="co:CO-SYN-002" target="aw:LBL-FR-unit:v1">
+  <data key="d0">IMPACTS</data>
+</edge>
+<edge source="co:CO-SYN-002" target="aw:LBL-FR-box:v1">
+  <data key="d0">IMPACTS</data>
+</edge>
+<edge source="co:CO-SYN-002" target="appr:CO-SYN-002:RA">
+  <data key="d0">APPROVED_BY</data>
+</edge>
+<edge source="co:CO-SYN-002" target="appr:CO-SYN-002:QA">
+  <data key="d0">APPROVED_BY</data>
+</edge>
+</graph></graphml>

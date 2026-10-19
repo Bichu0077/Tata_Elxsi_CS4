@@ -1,0 +1,130 @@
+{
+  "impacted": [
+    {
+      "artwork": "aw:LBL-DE-unit:v1",
+      "label": "LBL-DE-unit",
+      "market": "DE",
+      "jurisdiction": "EU",
+      "language": "DE",
+      "packaging_level": "unit",
+      "element": "el:LBL-DE-unit:auth_rep",
+      "requirements": [
+        "MDR Annex I 23.2(d)",
+        "MDR Annex I 23.1(h)"
+      ],
+      "path": "RC-SYN-001 -REVISES-> sym:ec_rep_2021 <-RENDERED_AS- el:LBL-DE-unit:auth_rep -PLACED_ON-> aw:LBL-DE-unit:v1 -FOR_MARKET-> DE / -IN_LANGUAGE-> DE"
+    },
+    {
+      "artwork": "aw:LBL-DE-box:v1",
+      "label": "LBL-DE-box",
+      "market": "DE",
+      "jurisdiction": "EU",
+      "language": "DE",
+      "packaging_level": "box",
+      "element": "el:LBL-DE-box:auth_rep",
+      "requirements": [
+        "MDR Annex I 23.2(d)",
+        "MDR Annex I 23.1(h)"
+      ],
+      "path": "RC-SYN-001 -REVISES-> sym:ec_rep_2021 <-RENDERED_AS- el:LBL-DE-box:auth_rep -PLACED_ON-> aw:LBL-DE-box:v1 -FOR_MARKET-> DE / -IN_LANGUAGE-> DE"
+    },
+    {
+      "artwork": "aw:LBL-FR-unit:v1",
+      "label": "LBL-FR-unit",
+      "market": "FR",
+      "jurisdiction": "EU",
+      "language": "FR",
+      "packaging_level": "unit",
+      "element": "el:LBL-FR-unit:auth_rep",
+      "requirements": [
+        "MDR Annex I 23.2(d)",
+        "MDR Annex I 23.1(h)"
+      ],
+      "path": "RC-SYN-001 -REVISES-> sym:ec_rep_2021 <-RENDERED_AS- el:LBL-FR-unit:auth_rep -PLACED_ON-> aw:LBL-FR-unit:v1 -FOR_MARKET-> FR / -IN_LANGUAGE-> FR"
+    },
+    {
+      "artwork": "aw:LBL-FR-box:v1",
+      "label": "LBL-FR-box",
+      "market": "FR",
+      "jurisdiction": "EU",
+      "language": "FR",
+      "packaging_level": "box",
+      "element": "el:LBL-FR-box:auth_rep",
+      "requirements": [
+        "MDR Annex I 23.2(d)",
+        "MDR Annex I 23.1(h)"
+      ],
+      "path": "RC-SYN-001 -REVISES-> sym:ec_rep_2021 <-RENDERED_AS- el:LBL-FR-box:auth_rep -PLACED_ON-> aw:LBL-FR-box:v1 -FOR_MARKET-> FR / -IN_LANGUAGE-> FR"
+    }
+  ],
+  "not_impacted": [
+    {
+      "artwork": "aw:LBL-US-unit:v1",
+      "label": "LBL-US-unit",
+      "market": "US",
+      "jurisdiction": "US",
+      "language": "EN",
+      "packaging_level": "unit",
+      "reason": "no element rendered with the revised symbol"
+    },
+    {
+      "artwork": "aw:LBL-US-box:v1",
+      "label": "LBL-US-box",
+      "market": "US",
+      "jurisdiction": "US",
+      "language": "EN",
+      "packaging_level": "box",
+      "reason": "no element rendered with the revised symbol"
+    }
+  ],
+  "change_order": {
+    "id": "CO-SYN-002",
+    "status": "DRAFT, awaiting human release (AI never approves)",
+    "trigger": "RC-SYN-001",
+    "reason": "ISO 15223-1:2021/Amd 1:2025: modified EC REP symbol (title per ISO listing)",
+    "impacted_artworks": [
+      {
+        "label": "LBL-DE-unit",
+        "market": "DE",
+        "language": "DE",
+        "packaging_level": "unit"
+      },
+      {
+        "label": "LBL-DE-box",
+        "market": "DE",
+        "language": "DE",
+        "packaging_level": "box"
+      },
+      {
+        "label": "LBL-FR-unit",
+        "market": "FR",
+        "language": "FR",
+        "packaging_level": "unit"
+      },
+      {
+        "label": "LBL-FR-box",
+        "market": "FR",
+        "language": "FR",
+        "packaging_level": "box"
+      }
+    ],
+    "actions": [
+      "Replace EC REP placeholder (ISO 15223-1:2021) with the Amd 1 edition on each impacted artwork",
+      "Regenerate redlines from the graph diff",
+      "Run compliance rules and CV verification on every regenerated proof",
+      "Risk-based review packet: diff-only review where CV shows change only in the EC REP region"
+    ],
+    "new_udi_di_check": "No MDR Annex VI 3.9 trigger: no product attribute changed",
+    "approvals_required": [
+      {
+        "role": "Regulatory Affairs",
+        "status": "pending human e-signature (21 CFR 11.10(e) audit trail)"
+      },
+      {
+        "role": "Quality Assurance",
+        "status": "pending human e-signature (21 CFR 11.10(e) audit trail)"
+      }
+    ],
+    "synthetic": true
+  }
+}

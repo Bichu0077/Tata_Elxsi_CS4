@@ -1,0 +1,99 @@
+{
+  "assumptions": {
+    "labels": 30,
+    "languages": 20,
+    "blocks": 600,
+    "today": {
+      "base": {
+        "impact_h": 16,
+        "redline_h": 2,
+        "block_min": 5,
+        "reviewers": 3,
+        "qc_h": 1
+      },
+      "pessimistic": {
+        "impact_h": 8,
+        "redline_h": 1,
+        "block_min": 3,
+        "reviewers": 2,
+        "qc_h": 0.5
+      }
+    },
+    "platform": {
+      "base": {
+        "confirm_h": 0.5,
+        "layout_h": 0.25,
+        "packet_min": 10,
+        "packet_reviewers": 2,
+        "flag_rate": 0.1,
+        "block_min_flag": 5,
+        "qc_evidence_h": 0.25
+      },
+      "pessimistic": {
+        "confirm_h": 2,
+        "layout_h": 0.5,
+        "packet_min": 20,
+        "packet_reviewers": 2,
+        "flag_rate": 0.25,
+        "block_min_flag": 5,
+        "qc_evidence_h": 0.5
+      }
+    }
+  },
+  "cases": {
+    "base": {
+      "today_h": 256.0,
+      "platform_h": 30.5,
+      "saved_h": 225.5,
+      "saved_pct": 88.1,
+      "today": {
+        "Impact assessment": 16,
+        "Redline / artwork modification": 60,
+        "Review of language blocks": 150.0,
+        "Final quality check": 30
+      },
+      "platform": {
+        "Impact assessment": 0.5,
+        "Redline / artwork modification": 7.5,
+        "Review of language blocks": 15.0,
+        "Final quality check": 7.5
+      }
+    },
+    "pessimistic platform only": {
+      "today_h": 256.0,
+      "platform_h": 64.5,
+      "saved_h": 191.5,
+      "saved_pct": 74.8,
+      "today": {
+        "Impact assessment": 16,
+        "Redline / artwork modification": 60,
+        "Review of language blocks": 150.0,
+        "Final quality check": 30
+      },
+      "platform": {
+        "Impact assessment": 2,
+        "Redline / artwork modification": 15.0,
+        "Review of language blocks": 32.5,
+        "Final quality check": 15.0
+      }
+    },
+    "pessimistic (both sides)": {
+      "today_h": 113.0,
+      "platform_h": 64.5,
+      "saved_h": 48.5,
+      "saved_pct": 42.9,
+      "today": {
+        "Impact assessment": 8,
+        "Redline / artwork modification": 30,
+        "Review of language blocks": 60.0,
+        "Final quality check": 15.0
+      },
+      "platform": {
+        "Impact assessment": 2,
+        "Redline / artwork modification": 15.0,
+        "Review of language blocks": 32.5,
+        "Final quality check": 15.0
+      }
+    }
+  }
+}

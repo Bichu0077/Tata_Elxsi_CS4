@@ -1,0 +1,112 @@
+{
+  "change": {
+    "attribute": "pack_quantity",
+    "old": "10",
+    "new": "5"
+  },
+  "rules_triggered": [
+    {
+      "attribute": "pack_quantity",
+      "requirement": "EU-VI-3.9(f)",
+      "clause": "MDR Annex VI Part C 3.9(f)",
+      "text": "new UDI-DI required on change of quantity of devices provided in a package",
+      "jurisdiction": "EU"
+    },
+    {
+      "attribute": "pack_quantity",
+      "requirement": "US-830.310(b)(14)",
+      "clause": "21 CFR 830.310(b)(14)",
+      "text": "GUDID: total number of individual devices in the device package",
+      "jurisdiction": "US"
+    }
+  ],
+  "impacted": [
+    {
+      "artwork": "aw:LBL-US-box:v1",
+      "label": "LBL-US-box",
+      "market": "US",
+      "jurisdiction": "US",
+      "language": "EN",
+      "packaging_level": "box",
+      "elements": [
+        "el:LBL-US-box:quantity",
+        "el:LBL-US-box:udi_carrier (pending RA decision)"
+      ],
+      "udi_flag": "CHECK WITH REGULATORY AFFAIRS: is a new DI required? (US DI triggers not in catalogue)"
+    },
+    {
+      "artwork": "aw:LBL-DE-box:v1",
+      "label": "LBL-DE-box",
+      "market": "DE",
+      "jurisdiction": "EU",
+      "language": "DE",
+      "packaging_level": "box",
+      "elements": [
+        "el:LBL-DE-box:quantity",
+        "el:LBL-DE-box:udi_carrier"
+      ],
+      "udi_flag": "NEW UDI-DI REQUIRED (MDR Annex VI Part C 3.9(f))"
+    },
+    {
+      "artwork": "aw:LBL-FR-box:v1",
+      "label": "LBL-FR-box",
+      "market": "FR",
+      "jurisdiction": "EU",
+      "language": "FR",
+      "packaging_level": "box",
+      "elements": [
+        "el:LBL-FR-box:quantity",
+        "el:LBL-FR-box:udi_carrier"
+      ],
+      "udi_flag": "NEW UDI-DI REQUIRED (MDR Annex VI Part C 3.9(f))"
+    }
+  ],
+  "tasks": [
+    {
+      "jurisdiction": "EU",
+      "task": "Obtain a new UDI-DI for the box packaging level from the issuing entity",
+      "basis": "MDR Annex VI Part C 3.9(f)"
+    },
+    {
+      "jurisdiction": "EU",
+      "task": "Update the EUDAMED UDI/device registration",
+      "basis": "EUDAMED mandatory use from 28 May 2026"
+    },
+    {
+      "jurisdiction": "US",
+      "task": "Check with regulatory affairs whether a new DI is required",
+      "basis": "open risk R5"
+    },
+    {
+      "jurisdiction": "US",
+      "task": "Update GUDID devices-per-package; if a new DI is assigned, report the previous DI",
+      "basis": "21 CFR 830.310(b)(14) and (b)(2)"
+    }
+  ],
+  "not_impacted": [
+    {
+      "artwork": "aw:LBL-US-unit:v1",
+      "label": "LBL-US-unit",
+      "market": "US",
+      "jurisdiction": "US",
+      "language": "EN",
+      "packaging_level": "unit"
+    },
+    {
+      "artwork": "aw:LBL-DE-unit:v1",
+      "label": "LBL-DE-unit",
+      "market": "DE",
+      "jurisdiction": "EU",
+      "language": "DE",
+      "packaging_level": "unit"
+    },
+    {
+      "artwork": "aw:LBL-FR-unit:v1",
+      "label": "LBL-FR-unit",
+      "market": "FR",
+      "jurisdiction": "EU",
+      "language": "FR",
+      "packaging_level": "unit"
+    }
+  ]
+}
